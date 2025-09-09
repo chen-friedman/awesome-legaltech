@@ -1,4 +1,4 @@
-# Awesome Legal AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/lawcal-ai/awesome-legal-ai?style=social)](https://github.com/lawcal-ai/awesome-legal-ai) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Awesome Legal AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=social)](https://github.com/chen-friedman/awesome-legaltech) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <div align="center">
 
@@ -30,19 +30,25 @@
 
 ## תוכן עניינים
 
+<div dir="rtl">
+
 | **ניווט מהיר** | **מספר** | **הטוב ביותר עבור** |
 |-----------------|-----------|---------------------|
 | [ספריות NLP ומודלי תחום](#ספריות-nlp-ומודלי-תחום) | 6 פרויקטים | עיבוד וניתוח טקסט |
 | [ניתוח חוזים ומסמכים מבוסס בינה מלאכותית](#ניתוח-חוזים-ומסמכים-מבוסס-בינה-מלאכותית) | 5 פלטפורמות | אינטליגנציה חוזית |
 | [מחקר משפטי ונתוני פסיקה/APIs](#מחקר-משפטי-ונתוני-פסיקהapis) | 6 משאבים | מחקר וציטוטים |
 | [גילוי אלקטרוני ותביעות](#גילוי-אלקטרוני-ותביעות) | 3 כלים | גילוי משפטי |
-| [ניהול מסמכים, OCR ו-PDF](#ניהול-מסמכים-ocr-ו-pdf) | 4 פתרונות | עיבוד מסמכים |
+| [זיהוי דיבור ותמלול](#זיהוי-דיבור-ותמלול) | 8 כלים | תמלול אודיו/וידאו |
+| [חתימה דיגיטלית ושיתוף](#חתימה-דיגיטלית-ושיתוף) | 3 פלטפורמות | חתימות דיגיטליות וויקי |
+| [ניהול מסמכים, OCR ו-PDF](#ניהול-מסמכים-ocr-ו-pdf) | 9 פתרונות | עיבוד מסמכים |
 | [הרכבת מסמכים וכללים כקוד](#הרכבת-מסמכים-וכללים-כקוד) | 4 פלטפורמות | אוטומציה וזרימות עבודה |
 | [מאגרי נתונים ומדדים](#מאגרי-נתונים-ומדדים) | 8 אוספים | אימון והערכה |
 | [אינטליגנציה מסמכים כללית](#אינטליגנציה-מסמכים-כללית-שימושית-למשפטי) | 6 כלים | הבנת מסמכים |
 | [למידה, קהילות ואוספים](#למידה-קהילות-ואוספים) | 2 קהילות | חינוך ורשתות |
 
-**סה"כ: יותר מ-44 משאבי Legal Tech איכותיים בקוד פתוח**
+**סה"כ: יותר מ-60 משאבי Legal Tech איכותיים בקוד פתוח**
+
+</div>
 
 ---
 
@@ -69,6 +75,8 @@
 
 *כלים חיוניים לעיבוד והבנת טקסט משפטי עם מודלי שפה מתמחים*
 
+<div dir="rtl">
+
 | **פרויקט** | **התמחות** | **היקף** | **סטטוס** |
 |-------------|-------------|-----------|------------|
 | **[LexNLP](https://github.com/LexPredict/lexpredict-lexnlp)** | חילוץ מידע מטקסט משפטי לא מובנה (Python) | עולמי | ![Active](https://img.shields.io/badge/status-active-green) |
@@ -78,11 +86,15 @@
 | **[CaseHOLD](https://github.com/reglab/casehold)** | משימות ובסיס לניתוח פסיקות | עולמי | ![Research](https://img.shields.io/badge/status-research-orange) |
 | **[LeXLMs](https://github.com/coastalcph/lexlms)** | קורפוסים ומשימות בדיקה למודלי שפה משפטיים | רב-לשוני | ![Research](https://img.shields.io/badge/status-research-orange) |
 
+</div>
+
 ---
 
 ## ניתוח חוזים ומסמכים מבוסס בינה מלאכותית
 
 *פלטפורמות ברמת אנטרפרייז לניתוח חוזים אינטליגנטי והבנת מסמכים*
+
+<div dir="rtl">
 
 | **פרויקט** | **תכונות** | **הטוב ביותר עבור** | **בגרות** |
 |-------------|-------------|----------------------|------------|
@@ -92,11 +104,15 @@
 | **[OpenEDGAR](https://github.com/LexPredict/openedgar)** 🇺🇸 | מסגרת למאגרי נתונים חיפושיים של EDGAR filings | ניירות ערך אמריקאיים | ![Stable](https://img.shields.io/badge/maturity-stable-lightblue) |
 | **[CUAD Tools](https://github.com/TheAtticusProject/cuad)** | קוד וממשקי נתונים להבנת חוזים | מחקר | ![Research](https://img.shields.io/badge/maturity-research-orange) |
 
+</div>
+
 ---
 
 ## מחקר משפטי ונתוני פסיקה/APIs
 
 *מאגרי נתונים ו-APIs מקיפים למחקר משפטי וגילוי פסיקה*
+
+<div dir="rtl">
 
 | **פרויקט** | **כיסוי** | **שיפוט** | **גישה ל-API** |
 |-------------|-----------|------------|----------------|
@@ -107,11 +123,15 @@
 | **[UK National Archives](https://nationalarchives.github.io/ds-find-caselaw-docs/public/)** 🇬🇧 | API ציבורי לפסקי דין בריטיים | בריטניה | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Open Legal Data](https://github.com/openlegaldata/oldp)** 🇩🇪 | פלטפורמה ו-API לנתונים משפטיים גרמניים | גרמניה | ![Platform](https://img.shields.io/badge/type-platform-orange) |
 
+</div>
+
 ---
 
 ## גילוי אלקטרוני ותביעות
 
 *כלים מתמחים לגילוי משפטי, בדיקת מסמכים ותמיכה בתביעות*
+
+<div dir="rtl">
 
 | **פרויקט** | **יכולות** | **מקרה שימוש** | **רישיון** |
 |-------------|-------------|------------------|------------|
@@ -119,11 +139,52 @@
 | **[FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** | מנוע איחזור מידע מבוסס scikit-learn | ניתוח מסמכים | ![Open Source](https://img.shields.io/badge/license-BSD-green) |
 | **[FOIAMachine](https://github.com/cirlabs/foiamachine)** 🇺🇸 | ניהול ושליחת בקשות FOIA עם ספריית סוכנויות | שקיפות ממשלתית | ![Open Source](https://img.shields.io/badge/license-MIT-lightblue) |
 
+</div>
+
+---
+
+## זיהוי דיבור ותמלול
+
+*כלים חיוניים להמרת אודיו/וידאו לטקסט בזרימות עבודה משפטיות*
+
+<div dir="rtl">
+
+| **פרויקט** | **התמחות** | **ביצועים** | **מקרה שימוש** |
+|-------------|-------------|---------------|-----------------|
+| **[Whisper](https://github.com/openai/whisper)** | זיהוי דיבור כללי של OpenAI | ![High](https://img.shields.io/badge/accuracy-high-green) | תמלול רב-לשוני |
+| **[WhisperX](https://github.com/m-bain/whisperX)** | ASR מהיר עם תזמוני מילים וזיהוי דוברים | ![Ultra Fast](https://img.shields.io/badge/speed-70x_realtime-brightgreen) | זיהוי דוברים |
+| **[faster-whisper](https://github.com/guillaumekln/faster-whisper)** | יישום Whisper מותאם | ![Fast](https://img.shields.io/badge/performance-fast-green) | תמלול יעיל |
+| **[insanely-fast-whisper](https://github.com/Vaibhavs10/insanely-fast-whisper)** | יישום Whisper מהיר במיוחד | ![Insane](https://img.shields.io/badge/speed-insane-brightgreen) | עיבוד באצווה |
+| **[WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit)** | זיהוי דיבור בזמן אמת עם Whisper | ![Real-time](https://img.shields.io/badge/mode-realtime-blue) | תמלול חי |
+| **[whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)** | זיהוי דוברים עם Whisper | ![Specialized](https://img.shields.io/badge/focus-diarization-orange) | זיהוי דוברים מרובים |
+| **[Vibe](https://github.com/thewh1teagle/vibe)** | אפליקציית תמלול שולחן עבודה עם Whisper | ![Desktop](https://img.shields.io/badge/platform-desktop-lightblue) | תמלול בעצמי |
+| **[Scriberr](https://github.com/rishikanthc/Scriberr)** | כלי תמלול ורישום הערות | ![Notes](https://img.shields.io/badge/feature-notes-purple) | תמלול פגישות |
+
+</div>
+
+---
+
+## חתימה דיגיטלית ושיתוף
+
+*פלטפורמות לחתימה דיגיטלית על מסמכים ותיעוד שיתופי*
+
+<div dir="rtl">
+
+| **פרויקט** | **שימוש ראשי** | **הטוב ביותר עבור** | **רישיון** |
+|-------------|-----------------|----------------------|------------|
+| **[Documenso](https://github.com/documenso/documenso)** | אלטרנטיבת קוד פתוח ל-DocuSign | חתימות דיגיטליות | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
+| **[DocuSeal](https://github.com/docusealco/docuseal)** | פלטפורמת מילוי וחתימה על מסמכים | טפסי PDF וחתימות | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
+| **[Docmost](https://github.com/docmost/docmost)** | תוכנת ויקי ותיעוד שיתופית | תיעוד צוותי | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
+
+</div>
+
 ---
 
 ## ניהול מסמכים, OCR ו-PDF
 
 *כלים חיוניים לדיגיטציה, ניהול ועיבוד זרימות עבודה של מסמכים*
+
+<div dir="rtl">
 
 | **פרויקט** | **פונקציה מרכזית** | **ביצועים** | **תכונות מיוחדות** |
 |-------------|-------------------|--------------|---------------------|
@@ -131,12 +192,21 @@
 | **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** | ארגז כלים PDF מבוסס רשת מקומי | ![Fast](https://img.shields.io/badge/performance-fast-brightgreen) | פיצול/מיזוג/המרה/אופטימיזציה |
 | **[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** | הוספת שכבת טקסט OCR ל-PDFs סרוקים | ![Reliable](https://img.shields.io/badge/performance-reliable-blue) | יציאת PDF/A חיפושית |
 | **[Paperless-AI](https://github.com/clusterzx/paperless-ai)** | תוסף בינה מלאכותית ל-paperless-ngx | ![Smart](https://img.shields.io/badge/performance-smart-purple) | חיפוש סמנטי, סיווג אוטומטי |
+| **[paperless-gpt](https://github.com/icereed/paperless-gpt)** | אינטגרציית ChatGPT ל-paperless-ngx | ![AI](https://img.shields.io/badge/feature-AI_chat-orange) | שאלות ותשובות מסמכים, סיוע בינה מלאכותית |
+| **[Tesseract](https://github.com/tesseract-ocr/tesseract)** | מנוע OCR תקן תעשייתי | ![Standard](https://img.shields.io/badge/status-industry_standard-darkgreen) | זיהוי טקסט, 100+ שפות |
+| **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** | OCR מוכן לשימוש עם 80+ שפות | ![Easy](https://img.shields.io/badge/usability-easy-brightgreen) | חילוץ טקסט מהיר |
+| **[markitdown](https://github.com/microsoft/markitdown)** | המרת מסמכים ל-Markdown | ![Convert](https://img.shields.io/badge/feature-conversion-lightblue) | PDF/DOCX/PPTX ל-Markdown |
+| **[ExifTool](https://github.com/exiftool/exiftool)** | קריאה/כתיבה של מטאדאטה בקבצים | ![Metadata](https://img.shields.io/badge/focus-metadata-purple) | ניתוח ראיות דיגיטליות |
+
+</div>
 
 ---
 
 ## הרכבת מסמכים וכללים כקוד
 
 *פלטפורמות לאוטומציה של יצירת מסמכים משפטיים ויישום היגיון משפטי*
+
+<div dir="rtl">
 
 | **פרויקט** | **שימוש ראשי** | **משתמשי יעד** | **רמה טכנית** |
 |-------------|-----------------|-----------------|----------------|
@@ -145,11 +215,15 @@
 | **[Blawx](https://github.com/Lexpedite/blawx)** | סביבת כללים כקוד ויזואלית | טכנולוגים משפטיים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | שפת תכנות ליישום נאמן של חוקים | מפתחים | ![High](https://img.shields.io/badge/technical-high-red) |
 
+</div>
+
 ---
 
 ## מאגרי נתונים ומדדים
 
 *נתוני אימון איכותיים ומדדי הערכה לפיתוח בינה מלאכותית משפטית*
+
+<div dir="rtl">
 
 | **מאגר נתונים** | **סוג תוכן** | **כיסוי** | **קנה מידה** | **הטוב ביותר עבור** |
 |------------------|--------------|-----------|---------------|---------------------|
@@ -162,11 +236,15 @@
 | **[CUAD](https://github.com/TheAtticusProject/cuad)** | הערות סעיפי חוזה | עולמי | ![Specialized](https://img.shields.io/badge/scale-specialized-lightblue) | הבנת חוזים |
 | **[CaseHOLD](https://github.com/reglab/casehold)** 🇺🇸 | ניתוח פסיקות | ארצות הברית | ![Targeted](https://img.shields.io/badge/scale-targeted-yellow) | חשיבה משפטית |
 
+</div>
+
 ---
 
 ## אינטליגנציה מסמכים כללית (שימושית למשפטי)
 
 *לא ספציפי למשפט, אבל נמצא בשימוש נרחב בצינורות בינה מלאכותית משפטית לעיבוד מסמכים*
+
+<div dir="rtl">
 
 | **פרויקט** | **התמחות** | **סוגי קלט** | **ביצועים** |
 |-------------|-------------|--------------|--------------|
@@ -177,16 +255,22 @@
 | **[Nougat](https://github.com/facebookresearch/nougat)** | OCR עצבי למסמכים אקדמיים | PDFs אקדמיים | ![Specialized](https://img.shields.io/badge/focus-specialized-orange) |
 | **[Marker](https://github.com/datalab-to/marker)** | המרה מהירה של PDF ל-Markdown | PDF | ![Fast](https://img.shields.io/badge/speed-fast-brightgreen) |
 
+</div>
+
 ---
 
 ## למידה, קהילות ואוספים
 
 *קהילות ומשאבי למידה חיוניים למקצוענים בתחום הבינה המלאכותית המשפטית*
 
+<div dir="rtl">
+
 | **משאב** | **התמקדות** | **גודל קהילה** | **רמת פעילות** |
 |-----------|-------------|----------------|-----------------|
 | **[Free Law Project](https://github.com/freelawproject)** | מערכת אקולוגית של נתונים משפטיים פתוחים | ![Large](https://img.shields.io/badge/size-large-green) | ![Very Active](https://img.shields.io/badge/activity-very_active-brightgreen) |
 | **[Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp)** | מחקר אקדמי מאוצר | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Active](https://img.shields.io/badge/activity-active-green) |
+
+</div>
 
 ---
 
@@ -230,6 +314,8 @@ npx awesome-lint
 
 ## מדיניות אוצרות
 
+<div dir="rtl">
+
 | **אנחנו כוללים** | **אנחנו לא כוללים** |
 |-------------------|---------------------|
 | פרויקטי קוד פתוח בלבד | פלטפורמות SaaS סגורות |
@@ -237,6 +323,8 @@ npx awesome-lint
 | כלים מוכנים לשימוש מסחרי | מאגרים ניסיוניים נטושים |
 | מאגרי נתונים/מדדים איכותיים | נתונים איכות נמוכה או כפולים |
 | קהילות פעילות ומכובדות | קהילות לא פעילות או מזיקות |
+
+</div>
 
 **איכות קודמת:** אנו מעדיפים פרויקטים מתוחזקים היטב עם תיעוד טוב ושימוש בעולם האמיתי על פני כיסוי מקיף.
 
@@ -262,14 +350,14 @@ npx awesome-lint
 
 ### **קרדיטים**
 
-**נוצר על ידי [Chen Friedman](https://github.com/chenfriedman)**  
+**נוצר על ידי [Chen Friedman](https://www.linkedin.com/in/chenfriedman/)**  
 **מופעל על ידי [Legal Tech Systems](https://legaltech.systems)**
 
 ---
 
 **תנו כוכב למאגר אם זה עזר לכם!**
 
-[![GitHub Stars](https://img.shields.io/github/stars/lawcal-ai/awesome-legal-ai?style=for-the-badge&logo=github)](https://github.com/lawcal-ai/awesome-legal-ai/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=for-the-badge&logo=github)](https://github.com/chen-friedman/awesome-legaltech/stargazers)
 
 **נוצר באהבה עבור קהילת הטכנולוגיה המשפטית**
 
