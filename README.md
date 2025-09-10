@@ -79,6 +79,7 @@
 | **[InLegalBERT](https://github.com/Law-AI/pretraining-bert)** 🇮🇳 | BERT models and recipes for Indian law corpora | India | ![Active](https://img.shields.io/badge/status-active-green) |
 | **[CaseHOLD](https://github.com/reglab/casehold)** | Tasks and baselines for case-law holdings analysis | Global | ![Research](https://img.shields.io/badge/status-research-orange) |
 | **[LeXLMs](https://github.com/coastalcph/lexlms)** | Corpora and probing tasks for legal language models | Multilingual | ![Research](https://img.shields.io/badge/status-research-orange) |
+| **[Legal-HeBERT](https://github.com/avichaychriqui/Legal-HeBERT)** 🇮🇱 | BERT model for Hebrew legal and legislative domains | Israel | ![Research](https://img.shields.io/badge/status-research-orange) |
 
 ---
 
@@ -137,6 +138,8 @@
 | **[whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)** | Speaker diarization with Whisper | ![Specialized](https://img.shields.io/badge/focus-diarization-orange) | Multi-speaker identification |
 | **[Vibe](https://github.com/thewh1teagle/vibe)** | Desktop transcription app with Whisper | ![Desktop](https://img.shields.io/badge/platform-desktop-lightblue) | Self-hosted transcription |
 | **[Scriberr](https://github.com/rishikanthc/Scriberr)** | Transcription and note-taking tool | ![Notes](https://img.shields.io/badge/feature-notes-purple) | Meeting transcription |
+| **[hebrew_whisper](https://github.com/ShmuelRonen/hebrew_whisper)** 🇮🇱 | GUI for Hebrew transcription using ivrit.ai Whisper models | ![Hebrew](https://img.shields.io/badge/language-Hebrew-blue) | Hebrew legal transcription |
+| **[ivrit.ai Whisper Turbo](https://huggingface.co/ivrit-ai/whisper-large-v3-turbo-ct2)** 🇮🇱 | Optimized Hebrew Whisper model with 388 hours training data | ![Optimized](https://img.shields.io/badge/performance-optimized-green) | Hebrew speech recognition |
 
 ---
 
@@ -180,6 +183,7 @@
 | **[AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine)** 🇺🇸 | Court-form automation toolkit | Court systems | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[Blawx](https://github.com/Lexpedite/blawx)** | Visual Rules-as-Code environment | Legal technologists | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | Programming language for statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
+| **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | Legislative editing platform for AkomaNtoso XML format | EU institutions | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
 
 ---
 
@@ -197,6 +201,8 @@
 | **[LegalBench-RAG](https://github.com/zeroentropy-ai/legalbenchrag)** | Contract retrieval benchmark | Global | ![Focused](https://img.shields.io/badge/scale-focused-orange) | RAG system evaluation |
 | **[CUAD](https://github.com/TheAtticusProject/cuad)** | Contract clause annotations | Global | ![Specialized](https://img.shields.io/badge/scale-specialized-lightblue) | Contract understanding |
 | **[CaseHOLD](https://github.com/reglab/casehold)** 🇺🇸 | Case holdings analysis | United States | ![Targeted](https://img.shields.io/badge/scale-targeted-yellow) | Legal reasoning |
+| **[ivrit.ai datasets](https://github.com/ivrit-ai/ivrit.ai)** 🇮🇱 | Hebrew speech dataset creation platform | Israel | ![Platform](https://img.shields.io/badge/type-platform-orange) | Hebrew model training |
+| **[crowd-transcribe-v5](https://huggingface.co/datasets/ivrit-ai/crowd-transcribe-v5)** 🇮🇱 | Hebrew speech dataset with 388 hours transcribed data | Israel | ![Large](https://img.shields.io/badge/scale-large-green) | Hebrew speech models |
 
 ---
 
@@ -223,6 +229,8 @@
 |--------------|-----------|-------------------|-------------------|
 | **[Free Law Project](https://github.com/freelawproject)** | Open legal data ecosystem | ![Large](https://img.shields.io/badge/size-large-green) | ![Very Active](https://img.shields.io/badge/activity-very_active-brightgreen) |
 | **[Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp)** | Curated academic research | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[Legal ML Datasets](https://github.com/neelguha/legal-ml-datasets)** | Comprehensive collection of legal ML datasets and tasks | ![Large](https://img.shields.io/badge/size-large-green) | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[EOLE Conference](https://eolevent.eu)** 🇪🇺 | European Open Source & Free Software Law Event | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
 
 ---
 
