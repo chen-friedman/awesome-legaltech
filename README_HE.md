@@ -85,6 +85,7 @@
 | **[InLegalBERT](https://github.com/Law-AI/pretraining-bert)** 🇮🇳 | מודלים ומתכונים של BERT לקורפוסי חוק הודי | הודו | ![Active](https://img.shields.io/badge/status-active-green) |
 | **[CaseHOLD](https://github.com/reglab/casehold)** | משימות ובסיס לניתוח פסיקות | עולמי | ![Research](https://img.shields.io/badge/status-research-orange) |
 | **[LeXLMs](https://github.com/coastalcph/lexlms)** | קורפוסים ומשימות בדיקה למודלי שפה משפטיים | רב-לשוני | ![Research](https://img.shields.io/badge/status-research-orange) |
+| **[Legal-HeBERT](https://github.com/avichaychriqui/Legal-HeBERT)** 🇮🇱 | מודל BERT עבור תחומים משפטיים וחקיקתיים בעברית | ישראל | ![Research](https://img.shields.io/badge/status-research-orange) |
 
 </div>
 
@@ -159,6 +160,8 @@
 | **[whisper-diarization](https://github.com/MahmoudAshraf97/whisper-diarization)** | זיהוי דוברים עם Whisper | ![Specialized](https://img.shields.io/badge/focus-diarization-orange) | זיהוי דוברים מרובים |
 | **[Vibe](https://github.com/thewh1teagle/vibe)** | אפליקציית תמלול שולחן עבודה עם Whisper | ![Desktop](https://img.shields.io/badge/platform-desktop-lightblue) | תמלול בעצמי |
 | **[Scriberr](https://github.com/rishikanthc/Scriberr)** | כלי תמלול ורישום הערות | ![Notes](https://img.shields.io/badge/feature-notes-purple) | תמלול פגישות |
+| **[hebrew_whisper](https://github.com/ShmuelRonen/hebrew_whisper)** 🇮🇱 | ממשק גרפי לתמלול עברית באמצעות מודלי Whisper של ivrit.ai | ![Hebrew](https://img.shields.io/badge/language-Hebrew-blue) | תמלול משפטי בעברית |
+| **[ivrit.ai Whisper Turbo](https://huggingface.co/ivrit-ai/whisper-large-v3-turbo-ct2)** 🇮🇱 | מודל Whisper עברית מותאם עם 388 שעות נתוני אימון | ![Optimized](https://img.shields.io/badge/performance-optimized-green) | זיהוי דיבור עברית |
 
 </div>
 
@@ -214,6 +217,7 @@
 | **[AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine)** 🇺🇸 | ערכת כלים לאוטומציה של טפסי בית משפט | מערכות בית משפט | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[Blawx](https://github.com/Lexpedite/blawx)** | סביבת כללים כקוד ויזואלית | טכנולוגים משפטיים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | שפת תכנות ליישום נאמן של חוקים | מפתחים | ![High](https://img.shields.io/badge/technical-high-red) |
+| **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | פלטפורמת עריכת חקיקה לפורמט AkomaNtoso XML | מוסדות האיחוד האירופי | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
 
 </div>
 
@@ -235,6 +239,8 @@
 | **[LegalBench-RAG](https://github.com/zeroentropy-ai/legalbenchrag)** | מדד איחזור חוזים | עולמי | ![Focused](https://img.shields.io/badge/scale-focused-orange) | הערכת מערכות RAG |
 | **[CUAD](https://github.com/TheAtticusProject/cuad)** | הערות סעיפי חוזה | עולמי | ![Specialized](https://img.shields.io/badge/scale-specialized-lightblue) | הבנת חוזים |
 | **[CaseHOLD](https://github.com/reglab/casehold)** 🇺🇸 | ניתוח פסיקות | ארצות הברית | ![Targeted](https://img.shields.io/badge/scale-targeted-yellow) | חשיבה משפטית |
+| **[ivrit.ai datasets](https://github.com/ivrit-ai/ivrit.ai)** 🇮🇱 | פלטפורמה ליצירת מאגרי נתוני דיבור עברית | ישראל | ![Platform](https://img.shields.io/badge/type-platform-orange) | אימון מודלים עבריים |
+| **[crowd-transcribe-v5](https://huggingface.co/datasets/ivrit-ai/crowd-transcribe-v5)** 🇮🇱 | מאגר נתוני דיבור עברית עם 388 שעות נתונים מתומללים | ישראל | ![Large](https://img.shields.io/badge/scale-large-green) | מודלי דיבור עברית |
 
 </div>
 
@@ -269,6 +275,8 @@
 |-----------|-------------|----------------|-----------------|
 | **[Free Law Project](https://github.com/freelawproject)** | מערכת אקולוגית של נתונים משפטיים פתוחים | ![Large](https://img.shields.io/badge/size-large-green) | ![Very Active](https://img.shields.io/badge/activity-very_active-brightgreen) |
 | **[Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp)** | מחקר אקדמי מאוצר | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[Legal ML Datasets](https://github.com/neelguha/legal-ml-datasets)** | אוסף מקיף של מאגרי נתונים ומשימות למידת מכונה משפטית | ![Large](https://img.shields.io/badge/size-large-green) | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[EOLE Conference](https://eolevent.eu)** 🇪🇺 | אירוע החוק הפתוח והתוכנה החופשית האירופי | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
 
 </div>
 
