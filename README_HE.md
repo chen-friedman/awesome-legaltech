@@ -2,9 +2,9 @@
 
 <div align="center">
 
-### **האוסף המובחר של כלי Legal Tech ובינה מלאכותית לתחום המשפטי בקוד פתוח**
+### **האוסף המובחר של כלי טכנולוגיה משפטית ובינה מלאכותית בקוד פתוח**
 
-*אוצרים את הכלים הטובים ביותר שמוכנים לשימוש מסחרי, מאגרי נתונים וקהילות למקצוענים משפטיים ומפתחים*
+*הכלים הטובים ביותר שמוכנים לשימוש מסחרי, מאגרי נתונים וקהילות אנשי מקצוע במשפט ומפתחים*
 
 [![Legal Tech](https://img.shields.io/badge/Legal%20Tech-Open%20Source-blue?style=for-the-badge&logo=scale&logoColor=white)](https://github.com/topics/legal-tech)
 [![AI Powered](https://img.shields.io/badge/AI%20Powered-Legal%20Solutions-purple?style=for-the-badge&logo=brain&logoColor=white)](https://github.com/topics/legal-ai)
@@ -20,7 +20,7 @@
 
 **אוצרות איכותית בראש וראשונה** ← רק פרויקטים מתוחזקים באופן פעיל ומוכנים לשימוש מסחרי  
 **כיסוי עולמי** ← היקף עולמי עם תיוג ספציפי למשפט השיפוט (🇺🇸 🇪🇺 🇬🇧 🇩🇪 🇮🇳)  
-**התמקדות בפתרונות מסחריים** ← כלים מהעולם האמיתי שמקצוענים משפטיים משתמשים בהם בפועל  
+**התמקדות בפתרונות מסחריים** ← כלים מהעולם האמיתי שאנשי מקצוע במשפט משתמשים בהם בפועל  
 **מאגרי נתונים עשירים** ← מדדי איכות גבוהה ונתוני אימון לפיתוח בינה מלאכותית  
 **קהילות פעילות** ← מערכות אקולוגיות משגשגות ופרויקטים שיתופיים  
 
@@ -54,7 +54,7 @@
 
 ## מדריך מהיר
 
-### למקצוענים משפטיים
+### לאנשי מקצוע במשפט
 1. **התחל עם**: [ניתוח חוזים מבוסס בינה מלאכותית](#ניתוח-חוזים-ומסמכים-מבוסס-בינה-מלאכותית) לבדיקת מסמכים
 2. **כלי מחקר**: [מחקר משפטי ו-APIs של נתוני פסיקה](#מחקר-משפטי-ונתוני-פסיקהapis) לגילוי תקדימים
 3. **עיבוד מסמכים**: [ניהול מסמכים ו-OCR](#ניהול-מסמכים-ocr-ו-pdf) לדיגיטציה
@@ -116,9 +116,9 @@
 
 | **פרויקט** | **כיסוי** | **שיפוט** | **גישה ל-API** |
 |-------------|-----------|------------|----------------|
-| **[CourtListener](https://github.com/freelawproject/courtlistener)** 🇺🇸 | פלטפורמה ראשית לנתונים ומחקר משפטי | ארצות הברית | ![API](https://img.shields.io/badge/API-available-green) |
+| **[CourtListener](https://github.com/freelawproject/courtlistener)** 🇺🇸 | פלטפורמה מרכזית לנתונים ומחקר משפטי | ארצות הברית | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Juriscraper](https://github.com/freelawproject/juriscraper)** 🇺🇸 | מגרדים לחוות דעת, טיעונים בעל פה, תוכן PACER | ארצות הברית | ![Tools](https://img.shields.io/badge/type-tools-blue) |
-| **[Eyecite](https://github.com/freelawproject/eyecite)** 🇺🇸 | חולץ ציטוטים משפטיים מהיר וחזק | ארצות הברית | ![Library](https://img.shields.io/badge/type-library-purple) |
+| **[Eyecite](https://github.com/freelawproject/eyecite)** 🇺🇸 | חולץ מהיר ויעיל לציטוטים משפטיים | ארצות הברית | ![Library](https://img.shields.io/badge/type-library-purple) |
 | **[Caselaw Access Project](https://lil.law.harvard.edu/our-work/caselaw-access-project/)** 🇺🇸 | יותר מ-6.7 מיליון החלטות בית משפט אמריקאי עם API | ארצות הברית | ![API](https://img.shields.io/badge/API-available-green) |
 | **[UK National Archives](https://nationalarchives.github.io/ds-find-caselaw-docs/public/)** 🇬🇧 | API ציבורי לפסקי דין בריטיים | בריטניה | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Open Legal Data](https://github.com/openlegaldata/oldp)** 🇩🇪 | פלטפורמה ו-API לנתונים משפטיים גרמניים | גרמניה | ![Platform](https://img.shields.io/badge/type-platform-orange) |
@@ -210,7 +210,7 @@
 
 | **פרויקט** | **שימוש ראשי** | **משתמשי יעד** | **רמה טכנית** |
 |-------------|-----------------|-----------------|----------------|
-| **[docassemble](https://github.com/jhpyle/docassemble)** | פלטפורמת מערכת מומחים לראיונות מודרכים | מקצוענים משפטיים | ![Medium](https://img.shields.io/badge/technical-medium-orange) |
+| **[docassemble](https://github.com/jhpyle/docassemble)** | מערכת מומחים לניהול ראיונות מובנים | אנשי מקצוע במשפט | ![Medium](https://img.shields.io/badge/technical-medium-orange) |
 | **[AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine)** 🇺🇸 | ערכת כלים לאוטומציה של טפסי בית משפט | מערכות בית משפט | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[Blawx](https://github.com/Lexpedite/blawx)** | סביבת כללים כקוד ויזואלית | טכנולוגים משפטיים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | שפת תכנות ליישום נאמן של חוקים | מפתחים | ![High](https://img.shields.io/badge/technical-high-red) |
@@ -355,7 +355,7 @@ npx awesome-lint
 
 ---
 
-**תנו כוכב למאגר אם זה עזר לכם!**
+**תנו כוכב למאגר אם מצאתם אותו שימושי!**
 
 [![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=for-the-badge&logo=github)](https://github.com/chen-friedman/awesome-legaltech/stargazers)
 
