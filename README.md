@@ -183,6 +183,7 @@
 | **[AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine)** 🇺🇸 | Court-form automation toolkit | Court systems | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[Blawx](https://github.com/Lexpedite/blawx)** | Visual Rules-as-Code environment | Legal technologists | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | Programming language for statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
+| **[LegalForge](https://github.com/stephenpurkiss/legal-forge)** 🇬🇧 | Claude Code plugin: court formatting (PD 32, CPR), citation validation, exhibit management, e-bundle compliance, probate rules, SCCO costs. 8 skills + legal reviewer agent. Built from 152 BDD features encoding court rules as executable specs. | England & Wales | ![Active](https://img.shields.io/badge/maturity-active-green) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | Legislative editing platform for AkomaNtoso XML format | EU institutions | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
 
 ---
