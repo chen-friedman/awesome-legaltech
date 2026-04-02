@@ -152,7 +152,6 @@
 | **[Documenso](https://github.com/documenso/documenso)** | Open-source DocuSign alternative | Digital signatures | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
 | **[DocuSeal](https://github.com/docusealco/docuseal)** | Document filling and signing platform | PDF forms & signatures | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
 | **[Docmost](https://github.com/docmost/docmost)** | Collaborative wiki and documentation software | Team documentation | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
-| **[Signbee](https://github.com/signbee/mcp)** | Document signing for AI agents — MCP server + REST API for two-party e-signing with SHA-256 certified delivery | AI agent workflows | ![MIT](https://img.shields.io/badge/license-MIT-lightblue) |
 
 ---
 
