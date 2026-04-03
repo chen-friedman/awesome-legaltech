@@ -1,4 +1,4 @@
-# Awesome Legal AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=social)](https://github.com/chen-friedman/awesome-legaltech) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=social)](https://github.com/chen-friedman/awesome-legaltech) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <div align="center">
 
@@ -32,19 +32,19 @@
 
 | **Quick Navigation** | **Count** | **Best For** |
 |----------------------|-----------|--------------|
-| [NLP Libraries & Domain Models](#nlp-libraries--domain-models) | 6 projects | Text processing & analysis |
+| [NLP Libraries & Domain Models](#nlp-libraries--domain-models) | 7 projects | Text processing & analysis |
 | [AI-Powered Contract & Document Analytics](#ai-powered-contract--document-analytics) | 5 platforms | Contract intelligence |
 | [Legal Research & Case Law Data/APIs](#legal-research--case-law-dataapis) | 6 resources | Research & citations |
 | [E-Discovery & Litigation](#e-discovery--litigation) | 3 tools | Legal discovery |
-| [Speech Recognition & Transcription](#speech-recognition--transcription) | 8 tools | Audio/video transcription |
+| [Speech Recognition & Transcription](#speech-recognition--transcription) | 10 tools | Audio/video transcription |
 | [Document Signing & Collaboration](#document-signing--collaboration) | 3 platforms | Digital signatures & wikis |
 | [Document Management, OCR & PDF](#document-management-ocr--pdf) | 9 solutions | Document processing |
-| [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 4 platforms | Automation & workflows |
-| [Datasets & Benchmarks](#datasets--benchmarks) | 8 collections | Training & evaluation |
+| [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 5 platforms | Automation & workflows |
+| [Datasets & Benchmarks](#datasets--benchmarks) | 10 collections | Training & evaluation |
 | [General-Purpose Document Intelligence](#general-purpose-document-intelligence-useful-for-legal) | 6 tools | Document understanding |
-| [Learning, Communities & Curations](#learning-communities--curations) | 2 communities | Education & networking |
+| [Learning, Communities & Curations](#learning-communities--curations) | 4 communities | Education & networking |
 
-**Total: 60+ High-Quality Open-Source Legal Tech Resources**
+**Total: 65+ High-Quality Open-Source Legal Tech Resources**
 
 ---
 
@@ -307,7 +307,7 @@ npx awesome-lint
 ### **Credits**
 
 **Curated by [Chen Friedman](https://www.linkedin.com/in/chenfriedman/)**
-**Powered by [Legal Tech Systems](https://legaltech.systems)**
+**Powered by [Lawcal AI](https://lawcal.ai)**
 
 ---
 

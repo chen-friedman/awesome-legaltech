@@ -1,4 +1,4 @@
-# Awesome Legal AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=social)](https://github.com/chen-friedman/awesome-legaltech) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Awesome Legaltech [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub Stars](https://img.shields.io/github/stars/chen-friedman/awesome-legaltech?style=social)](https://github.com/chen-friedman/awesome-legaltech) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 <div align="center">
 
@@ -34,19 +34,19 @@
 
 | **ניווט מהיר** | **מספר** | **הטוב ביותר עבור** |
 |-----------------|-----------|---------------------|
-| [ספריות NLP ומודלי תחום](#ספריות-nlp-ומודלי-תחום) | 6 פרויקטים | עיבוד וניתוח טקסט |
+| [ספריות NLP ומודלי תחום](#ספריות-nlp-ומודלי-תחום) | 7 פרויקטים | עיבוד וניתוח טקסט |
 | [ניתוח חוזים ומסמכים מבוסס בינה מלאכותית](#ניתוח-חוזים-ומסמכים-מבוסס-בינה-מלאכותית) | 5 פלטפורמות | אינטליגנציה חוזית |
 | [מחקר משפטי ונתוני פסיקה/APIs](#מחקר-משפטי-ונתוני-פסיקהapis) | 6 משאבים | מחקר וציטוטים |
 | [גילוי אלקטרוני ותביעות](#גילוי-אלקטרוני-ותביעות) | 3 כלים | גילוי משפטי |
-| [זיהוי דיבור ותמלול](#זיהוי-דיבור-ותמלול) | 8 כלים | תמלול אודיו/וידאו |
+| [זיהוי דיבור ותמלול](#זיהוי-דיבור-ותמלול) | 10 כלים | תמלול אודיו/וידאו |
 | [חתימה דיגיטלית ושיתוף](#חתימה-דיגיטלית-ושיתוף) | 3 פלטפורמות | חתימות דיגיטליות וויקי |
 | [ניהול מסמכים, OCR ו-PDF](#ניהול-מסמכים-ocr-ו-pdf) | 9 פתרונות | עיבוד מסמכים |
-| [הרכבת מסמכים וכללים כקוד](#הרכבת-מסמכים-וכללים-כקוד) | 4 פלטפורמות | אוטומציה וזרימות עבודה |
-| [מאגרי נתונים ומדדים](#מאגרי-נתונים-ומדדים) | 8 אוספים | אימון והערכה |
+| [הרכבת מסמכים וכללים כקוד](#הרכבת-מסמכים-וכללים-כקוד) | 5 פלטפורמות | אוטומציה וזרימות עבודה |
+| [מאגרי נתונים ומדדים](#מאגרי-נתונים-ומדדים) | 10 אוספים | אימון והערכה |
 | [אינטליגנציה מסמכים כללית](#אינטליגנציה-מסמכים-כללית-שימושית-למשפטי) | 6 כלים | הבנת מסמכים |
-| [למידה, קהילות ואוספים](#למידה-קהילות-ואוספים) | 2 קהילות | חינוך ורשתות |
+| [למידה, קהילות ואוספים](#למידה-קהילות-ואוספים) | 4 קהילות | חינוך ורשתות |
 
-**סה"כ: יותר מ-60 משאבי Legal Tech איכותיים בקוד פתוח**
+**סה"כ: יותר מ-65 משאבי Legal Tech איכותיים בקוד פתוח**
 
 </div>
 
@@ -359,7 +359,7 @@ npx awesome-lint
 ### **קרדיטים**
 
 **נוצר על ידי [Chen Friedman](https://www.linkedin.com/in/chenfriedman/)**  
-**מופעל על ידי [Legal Tech Systems](https://legaltech.systems)**
+**מופעל על ידי [Lawcal AI](https://lawcal.ai)**
 
 ---
 
