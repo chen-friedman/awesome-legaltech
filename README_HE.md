@@ -42,11 +42,12 @@
 | [חתימה דיגיטלית ושיתוף](#חתימה-דיגיטלית-ושיתוף) | 3 פלטפורמות | חתימות דיגיטליות וויקי |
 | [ניהול מסמכים, OCR ו-PDF](#ניהול-מסמכים-ocr-ו-pdf) | 9 פתרונות | עיבוד מסמכים |
 | [הרכבת מסמכים וכללים כקוד](#הרכבת-מסמכים-וכללים-כקוד) | 5 פלטפורמות | אוטומציה וזרימות עבודה |
+| [כישורי סוכן AI לעבודה משפטית](#כישורי-סוכן-ai-לעבודה-משפטית) | 14 כישורים | אוטומציית AI משפטית |
 | [מאגרי נתונים ומדדים](#מאגרי-נתונים-ומדדים) | 10 אוספים | אימון והערכה |
 | [אינטליגנציה מסמכים כללית](#אינטליגנציה-מסמכים-כללית-שימושית-למשפטי) | 6 כלים | הבנת מסמכים |
 | [למידה, קהילות ואוספים](#למידה-קהילות-ואוספים) | 4 קהילות | חינוך ורשתות |
 
-**סה"כ: יותר מ-65 משאבי Legal Tech איכותיים בקוד פתוח**
+**סה"כ: יותר מ-80 משאבי Legal Tech איכותיים בקוד פתוח**
 
 </div>
 
@@ -218,6 +219,50 @@
 | **[Blawx](https://github.com/Lexpedite/blawx)** | סביבת כללים כקוד ויזואלית | טכנולוגים משפטיים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | שפת תכנות ליישום נאמן של חוקים | מפתחים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | פלטפורמת עריכת חקיקה לפורמט AkomaNtoso XML | מוסדות האיחוד האירופי | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+
+</div>
+
+---
+
+## כישורי סוכן AI לעבודה משפטית
+
+*כישורים בקוד פתוח שמלמדים סוכני AI (Claude ועוד) לבצע משימות משפטיות מתמחות — מבדיקת חוזים ועד בדיקות ציות*
+
+> **מה זה Agent Skills?** כישורים הם מערכי הוראות שסוכני AI טוענים בצורה דינמית כדי לבצע משימות מתמחות. התקינו כל כישור עם `npx skills add <skill-name>`. למידע נוסף בקרו ב-[agentskills.io](https://agentskills.io).
+
+### כישורים משפטיים ספציפיים
+
+*מתוך [![](https://img.shields.io/github/stars/anthropics/knowledge-work-plugins?style=social)](https://github.com/anthropics/knowledge-work-plugins) — ברישיון Apache-2.0*
+
+<div dir="rtl">
+
+| **כישור** | **מה הוא עושה** | **התקנה** |
+|-----------|------------------|-----------|
+| **[legal-risk-assessment](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment)** | מטריצת סיכונים חומרה × סבירות עם קריטריוני הסלמה | `npx skills add legal-risk-assessment` |
+| **[review-contract](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract)** | בדיקת חוזה מול playbook משא ומתן; מייצר שינויי נוסח | `npx skills add review-contract` |
+| **[triage-nda](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda)** | מיון NDA מהיר → ניתוב ירוק / צהוב / אדום | `npx skills add triage-nda` |
+| **[compliance-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check)** | מזהה רגולציות רלוונטיות ואישורים נדרשים | `npx skills add compliance-check` |
+| **[compliance-tracking](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/compliance-tracking)** | בדיקת GDPR/CCPA/DPA, בקשות נושאי מידע, ניטור רגולטורי | `npx skills add compliance-tracking` |
+| **[legal-response](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-response)** | תגובות תבניתיות להקפאות ליטיגציה, צווים, בקשות מידע | `npx skills add legal-response` |
+| **[vendor-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/vendor-check)** | תצוגה מאוחדת של הסכמי ספקים + מעקב דדליינים | `npx skills add vendor-check` |
+| **[signature-request](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/signature-request)** | רשימת בדיקה טרום-חתימה + ניתוב חתימה אלקטרונית | `npx skills add signature-request` |
+| **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | תדריך משפטי יומי חוצה אימייל, יומן וחוזים | `npx skills add brief` |
+| **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | תדריך מובנה טרום-פגישה למשא ומתן/בדיקות ציות | `npx skills add meeting-briefing` |
+
+</div>
+
+### כישורי עיבוד מסמכים
+
+*מתוך [![](https://img.shields.io/github/stars/anthropics/skills?style=social)](https://github.com/anthropics/skills) — מפעילים את יכולות המסמכים המובנות של Claude*
+
+<div dir="rtl">
+
+| **כישור** | **מה הוא עושה** | **התקנה** |
+|-----------|------------------|-----------|
+| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | חילוץ טקסט/טבלאות, יצירה, מיזוג/פיצול ומילוי טפסי PDF | `npx skills add pdf` |
+| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | יצירה, קריאה, עריכת מסמכי Word עם עיצוב ותבניות | `npx skills add docx` |
+| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | יצירה ועריכה של מצגות PowerPoint באופן תכנותי | `npx skills add pptx` |
+| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | יצירה, עריכה וניתוח גיליונות אלקטרוניים עם נוסחאות ותרשימים | `npx skills add xlsx` |
 
 </div>
 

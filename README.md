@@ -40,11 +40,12 @@
 | [Document Signing & Collaboration](#document-signing--collaboration) | 3 platforms | Digital signatures & wikis |
 | [Document Management, OCR & PDF](#document-management-ocr--pdf) | 9 solutions | Document processing |
 | [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 5 platforms | Automation & workflows |
+| [AI Agent Skills for Legal Work](#ai-agent-skills-for-legal-work) | 14 skills | Legal AI automation |
 | [Datasets & Benchmarks](#datasets--benchmarks) | 10 collections | Training & evaluation |
 | [General-Purpose Document Intelligence](#general-purpose-document-intelligence-useful-for-legal) | 6 tools | Document understanding |
 | [Learning, Communities & Curations](#learning-communities--curations) | 4 communities | Education & networking |
 
-**Total: 65+ High-Quality Open-Source Legal Tech Resources**
+**Total: 80+ High-Quality Open-Source Legal Tech Resources**
 
 ---
 
@@ -184,6 +185,42 @@
 | **[Blawx](https://github.com/Lexpedite/blawx)** | Visual Rules-as-Code environment | Legal technologists | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | Programming language for statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | Legislative editing platform for AkomaNtoso XML format | EU institutions | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+
+---
+
+## AI Agent Skills for Legal Work
+
+*Open-source skills that teach AI agents (Claude, etc.) to perform specialized legal tasks — from contract review to compliance checks*
+
+> **What are Agent Skills?** Skills are instruction sets that AI agents load dynamically to perform specialized tasks. Install any skill with `npx skills add <skill-name>`. Learn more at [agentskills.io](https://agentskills.io).
+
+### Legal-Specific Skills
+
+*From [![](https://img.shields.io/github/stars/anthropics/knowledge-work-plugins?style=social)](https://github.com/anthropics/knowledge-work-plugins) — Apache-2.0 licensed*
+
+| **Skill** | **What It Does** | **Install** |
+|-----------|------------------|-------------|
+| **[legal-risk-assessment](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment)** | Severity × likelihood risk matrix with escalation criteria | `npx skills add legal-risk-assessment` |
+| **[review-contract](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract)** | Contract review against negotiation playbook; generates redlines | `npx skills add review-contract` |
+| **[triage-nda](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda)** | Rapid NDA triage → GREEN / YELLOW / RED routing | `npx skills add triage-nda` |
+| **[compliance-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check)** | Surfaces applicable regulations and required approvals | `npx skills add compliance-check` |
+| **[compliance-tracking](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/compliance-tracking)** | GDPR/CCPA/DPA review, data subject requests, regulatory monitoring | `npx skills add compliance-tracking` |
+| **[legal-response](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-response)** | Templated responses to litigation holds, subpoenas, data requests | `npx skills add legal-response` |
+| **[vendor-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/vendor-check)** | Consolidated view of vendor agreements + deadline tracking | `npx skills add vendor-check` |
+| **[signature-request](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/signature-request)** | Pre-signature checklist + e-signature routing | `npx skills add signature-request` |
+| **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | Daily legal briefing across email, calendar, and contracts | `npx skills add brief` |
+| **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | Structured pre-meeting briefing for negotiations/compliance reviews | `npx skills add meeting-briefing` |
+
+### Document Processing Skills
+
+*From [![](https://img.shields.io/github/stars/anthropics/skills?style=social)](https://github.com/anthropics/skills) — powers Claude's built-in document capabilities*
+
+| **Skill** | **What It Does** | **Install** |
+|-----------|------------------|-------------|
+| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | Extract text/tables, create, merge/split, and fill PDF forms | `npx skills add pdf` |
+| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | Create, read, edit Word documents with formatting and templates | `npx skills add docx` |
+| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | Create and edit PowerPoint presentations programmatically | `npx skills add pptx` |
+| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | Create, edit, and analyze spreadsheets with formulas and charts | `npx skills add xlsx` |
 
 ---
 
