@@ -34,20 +34,23 @@
 
 | **ניווט מהיר** | **מספר** | **הטוב ביותר עבור** |
 |-----------------|-----------|---------------------|
-| [ספריות NLP ומודלי תחום](#ספריות-nlp-ומודלי-תחום) | 7 פרויקטים | עיבוד וניתוח טקסט |
+| [ספריות NLP ומודלי תחום](#ספריות-nlp-ומודלי-תחום) | 10 פרויקטים | עיבוד וניתוח טקסט |
 | [ניתוח חוזים ומסמכים מבוסס בינה מלאכותית](#ניתוח-חוזים-ומסמכים-מבוסס-בינה-מלאכותית) | 5 פלטפורמות | אינטליגנציה חוזית |
-| [מחקר משפטי ונתוני פסיקה/APIs](#מחקר-משפטי-ונתוני-פסיקהapis) | 6 משאבים | מחקר וציטוטים |
-| [גילוי אלקטרוני ותביעות](#גילוי-אלקטרוני-ותביעות) | 3 כלים | גילוי משפטי |
+| [תשתית RAG ו-AI](#תשתית-rag-ו-ai) | 8 כלים | בניית אפליקציות AI משפטיות |
+| [AI אגנטי ואוטומציה](#ai-אגנטי-ואוטומציה) | 5 כלים | סוכני AI ואוטומציית זרימות עבודה |
+| [מחקר משפטי ונתוני פסיקה/APIs](#מחקר-משפטי-ונתוני-פסיקהapis) | 9 משאבים | מחקר וציטוטים |
+| [גילוי אלקטרוני ותביעות](#גילוי-אלקטרוני-ותביעות) | 6 כלים | גילוי משפטי והערת מסמכים |
 | [זיהוי דיבור ותמלול](#זיהוי-דיבור-ותמלול) | 10 כלים | תמלול אודיו/וידאו |
-| [חתימה דיגיטלית ושיתוף](#חתימה-דיגיטלית-ושיתוף) | 3 פלטפורמות | חתימות דיגיטליות וויקי |
-| [ניהול מסמכים, OCR ו-PDF](#ניהול-מסמכים-ocr-ו-pdf) | 9 פתרונות | עיבוד מסמכים |
-| [הרכבת מסמכים וכללים כקוד](#הרכבת-מסמכים-וכללים-כקוד) | 5 פלטפורמות | אוטומציה וזרימות עבודה |
+| [חתימה דיגיטלית ושיתוף](#חתימה-דיגיטלית-ושיתוף) | 5 פלטפורמות | חתימות דיגיטליות וויקי |
+| [ניהול מסמכים, OCR ו-PDF](#ניהול-מסמכים-ocr-ו-pdf) | 14 פתרונות | עיבוד מסמכים |
+| [הרכבת מסמכים וכללים כקוד](#הרכבת-מסמכים-וכללים-כקוד) | 7 פלטפורמות | אוטומציה וזרימות עבודה |
 | [כישורי סוכן AI לעבודה משפטית](#כישורי-סוכן-ai-לעבודה-משפטית) | 14 כישורים | אוטומציית AI משפטית |
+| [ניהול ידע](#ניהול-ידע) | 5 כלים | רשימות מחקר ו-PKM |
 | [מאגרי נתונים ומדדים](#מאגרי-נתונים-ומדדים) | 10 אוספים | אימון והערכה |
 | [אינטליגנציה מסמכים כללית](#אינטליגנציה-מסמכים-כללית-שימושית-למשפטי) | 6 כלים | הבנת מסמכים |
-| [למידה, קהילות ואוספים](#למידה-קהילות-ואוספים) | 4 קהילות | חינוך ורשתות |
+| [למידה, קהילות ואוספים](#למידה-קהילות-ואוספים) | 6 קהילות | חינוך ורשתות |
 
-**סה"כ: יותר מ-80 משאבי Legal Tech איכותיים בקוד פתוח**
+**סה"כ: יותר מ-120 משאבי Legal Tech איכותיים בקוד פתוח**
 
 </div>
 
@@ -87,6 +90,9 @@
 | **[CaseHOLD](https://github.com/reglab/casehold)** | משימות ובסיס לניתוח פסיקות | עולמי | ![Research](https://img.shields.io/badge/status-research-orange) |
 | **[LeXLMs](https://github.com/coastalcph/lexlms)** | קורפוסים ומשימות בדיקה למודלי שפה משפטיים | רב-לשוני | ![Research](https://img.shields.io/badge/status-research-orange) |
 | **[Legal-HeBERT](https://github.com/avichaychriqui/Legal-HeBERT)** 🇮🇱 | מודל BERT עבור תחומים משפטיים וחקיקתיים בעברית | ישראל | ![Research](https://img.shields.io/badge/status-research-orange) |
+| **[Hugging Face Transformers](https://github.com/huggingface/transformers)** | ערכת כלים אוניברסלית לכיוון עדין והרצת מודלי transformer על טקסט משפטי | עולמי | ![Active](https://img.shields.io/badge/status-active-green) |
+| **[spaCy](https://github.com/explosion/spaCy)** | ספריית NLP בחוזק תעשייתי, בסיס לצינורות NLP משפטיים רבים | עולמי | ![Active](https://img.shields.io/badge/status-active-green) |
+| **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** | embeddings מתקדמים לחיפוש סמנטי משפטי | עולמי | ![Active](https://img.shields.io/badge/status-active-green) |
 
 </div>
 
@@ -110,6 +116,45 @@
 
 ---
 
+## תשתית RAG ו-AI
+
+*תשתית חיונית לבניית אפליקציות בינה מלאכותית על מסמכים משפטיים*
+
+<div dir="rtl">
+
+| **פרויקט** | **תיאור** | **כוכבים** | **רישיון** |
+|-------------|-------------|-----------|------------|
+| **[Ollama](https://github.com/ollama/ollama)** | הרצת מודלי שפה גדולים באופן מקומי — חיוני למסמכים משפטיים חסויים | ⭐ 167k | MIT |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** | ממשק ChatGPT מתארח עצמי למודלי שפה מקומיים ומרוחקים | ⭐ 130k | קוד פתוח |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | פריימוורק לבניית אפליקציות עם מודלי שפה וצינורות RAG | ⭐ 133k | MIT |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | פריימוורק נתונים לבניית אפליקציות LLM על מסמכים שלך | ⭐ 48k | MIT |
+| **[Haystack](https://github.com/deepset-ai/haystack)** | פריימוורק NLP לרמת ייצור לחיפוש מסמכים וצינורות QA | ⭐ 25k | Apache-2.0 |
+| **[Qdrant](https://github.com/qdrant/qdrant)** | מסד נתונים וקטורי בביצועים גבוהים לחיפוש סמנטי | ⭐ 30k | Apache-2.0 |
+| **[Chroma](https://github.com/chroma-core/chroma)** | מסד נתונים וקטורי קוד-פתוח ילידי-AI | ⭐ 27k | Apache-2.0 |
+| **[pgvector](https://github.com/pgvector/pgvector)** | הרחבת חיפוש דמיון וקטורי ל-PostgreSQL | ⭐ 21k | קוד פתוח |
+
+</div>
+
+---
+
+## AI אגנטי ואוטומציה
+
+*כלים לבניית סוכני AI ואוטומציית זרימות עבודה משפטיות*
+
+<div dir="rtl">
+
+| **פרויקט** | **תיאור** | **כוכבים** | **רישיון** |
+|-------------|-------------|-----------|------------|
+| **[n8n](https://github.com/n8n-io/n8n)** | פלטפורמת אוטומציה עם 400+ אינטגרציות | ⭐ 183k | קוד פתוח |
+| **[Browser Use](https://github.com/browser-use/browser-use)** | סוכני AI השולטים בדפדפן לאוטומציה של מחקר משפטי מבוסס רשת | ⭐ 86k | MIT |
+| **[AutoGen](https://github.com/microsoft/autogen)** | פריימוורק רב-סוכנים של מיקרוסופט לתזמור תהליכי AI | ⭐ 57k | CC-BY-4.0 |
+| **[CrewAI](https://github.com/crewAIInc/crewAI)** | פריימוורק לתזמור סוכני AI אוטונומיים עם תפקידים | ⭐ 48k | MIT |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | כלי אוטומציה ללא קוד קוד-פתוח עם אירוח עצמי | ⭐ 22k | קוד פתוח |
+
+</div>
+
+---
+
 ## מחקר משפטי ונתוני פסיקה/APIs
 
 *מאגרי נתונים ו-APIs מקיפים למחקר משפטי וגילוי פסיקה*
@@ -124,6 +169,9 @@
 | **[Caselaw Access Project](https://lil.law.harvard.edu/our-work/caselaw-access-project/)** 🇺🇸 | יותר מ-6.7 מיליון החלטות בית משפט אמריקאי עם API | ארצות הברית | ![API](https://img.shields.io/badge/API-available-green) |
 | **[UK National Archives](https://nationalarchives.github.io/ds-find-caselaw-docs/public/)** 🇬🇧 | API ציבורי לפסקי דין בריטיים | בריטניה | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Open Legal Data](https://github.com/openlegaldata/oldp)** 🇩🇪 | פלטפורמה ו-API לנתונים משפטיים גרמניים | גרמניה | ![Platform](https://img.shields.io/badge/type-platform-orange) |
+| **[Open Knesset](https://github.com/hasadna/Open-Knesset)** 🇮🇱 | פלטפורמת נתונים פתוחה להליכי כנסת ישראל | ישראל | ![Platform](https://img.shields.io/badge/type-platform-orange) |
+| **[OpenAlex](https://github.com/ourresearch/openalex-api-tutorials)** | קטלוג פתוח לחלוטין של עבודות אקדמיות | עולמי | ![API](https://img.shields.io/badge/API-available-green) |
+| **[EUR-Lex SPARQL](https://eur-lex.europa.eu/sparql)** 🇪🇺 | גישה SPARQL לחקיקת האיחוד האירופי | EU | ![API](https://img.shields.io/badge/API-available-green) |
 
 </div>
 
@@ -140,6 +188,9 @@
 | **[FreeEed](https://github.com/shmsoft/FreeEed)** | עיבוד eDiscovery מלא (OCR, אינדקס, מטאדאטה) | גילוי בקנה מידה גדול | ![Open Source](https://img.shields.io/badge/license-Apache-blue) |
 | **[FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** | מנוע איחזור מידע מבוסס scikit-learn | ניתוח מסמכים | ![Open Source](https://img.shields.io/badge/license-BSD-green) |
 | **[FOIAMachine](https://github.com/cirlabs/foiamachine)** 🇺🇸 | ניהול ושליחת בקשות FOIA עם ספריית סוכנויות | שקיפות ממשלתית | ![Open Source](https://img.shields.io/badge/license-MIT-lightblue) |
+| **[Label Studio](https://github.com/HumanSignal/label-studio)** | פלטפורמת תיוג נתונים קוד-פתוח להערת מסמכים משפטיים | כל הגדלים | ![Open Source](https://img.shields.io/badge/license-Apache-blue) |
+| **[doccano](https://github.com/doccano/doccano)** | כלי הערת טקסט לנתוני אימון NLP מקורפוסים משפטיים | מחקר/ייצור | ![Open Source](https://img.shields.io/badge/license-MIT-lightblue) |
+| **[Apache Tika](https://github.com/apache/tika)** | ערכת ניתוח תוכן המזהה 1000+ סוגי קבצים לצורכי eDiscovery | כל גדלי ארגון | ![Open Source](https://img.shields.io/badge/license-Apache-blue) |
 
 </div>
 
@@ -179,6 +230,8 @@
 | **[Documenso](https://github.com/documenso/documenso)** | אלטרנטיבת קוד פתוח ל-DocuSign | חתימות דיגיטליות | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
 | **[DocuSeal](https://github.com/docusealco/docuseal)** | פלטפורמת מילוי וחתימה על מסמכים | טפסי PDF וחתימות | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
 | **[Docmost](https://github.com/docmost/docmost)** | תוכנת ויקי ותיעוד שיתופית | תיעוד צוותי | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
+| **[Notesnook](https://github.com/streetwriters/notesnook)** | אפליקציית פתקים קוד-פתוח מוצפנת מקצה לקצה | אבטחת מידע רגיש | ![GPL-3](https://img.shields.io/badge/license-GPL--3-purple) |
+| **[OpenSign](https://github.com/OpenSignLabs/OpenSign)** | אלטרנטיבת DocuSign קוד-פתוח עם אירוח עצמי | חתימות אלקטרוניות | ![Open Source](https://img.shields.io/badge/license-Open_Source-lightblue) |
 
 </div>
 
@@ -201,6 +254,11 @@
 | **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** | OCR מוכן לשימוש עם 80+ שפות | ![Easy](https://img.shields.io/badge/usability-easy-brightgreen) | חילוץ טקסט מהיר |
 | **[markitdown](https://github.com/microsoft/markitdown)** | המרת מסמכים ל-Markdown | ![Convert](https://img.shields.io/badge/feature-conversion-lightblue) | PDF/DOCX/PPTX ל-Markdown |
 | **[ExifTool](https://github.com/exiftool/exiftool)** | קריאה/כתיבה של מטאדאטה בקבצים | ![Metadata](https://img.shields.io/badge/focus-metadata-purple) | ניתוח ראיות דיגיטליות |
+| **[Docling](https://github.com/docling-project/docling)** | ניתוח מסמכים מודרני PDF/DOCX/PPTX/HTML | ![Modern](https://img.shields.io/badge/approach-modern-lightgreen) | ניתוח ל-RAG |
+| **[Unstructured](https://github.com/Unstructured-IO/unstructured)** | עיבוד מקדים לצינורות RAG | ![Versatile](https://img.shields.io/badge/type-versatile-blue) | הכנת נתונים ל-AI |
+| **[GROBID](https://github.com/kermitt2/grobid)** | חילוץ מבנה מסמכים אקדמיים באמצעות למידת מכונה | ![High](https://img.shields.io/badge/accuracy-high-green) | מחקר |
+| **[Nougat](https://github.com/facebookresearch/nougat)** | OCR עצבי ל-PDFs אקדמיים | ![Specialized](https://img.shields.io/badge/focus-specialized-orange) | PDFs אקדמיים |
+| **[Marker](https://github.com/datalab-to/marker)** | המרה מהירה של PDF ל-Markdown | ![Fast](https://img.shields.io/badge/speed-fast-brightgreen) | הכנת מסמכים |
 
 </div>
 
@@ -219,6 +277,8 @@
 | **[Blawx](https://github.com/Lexpedite/blawx)** | סביבת כללים כקוד ויזואלית | טכנולוגים משפטיים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[Catala](https://github.com/CatalaLang/catala)** | שפת תכנות ליישום נאמן של חוקים | מפתחים | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | פלטפורמת עריכת חקיקה לפורמט AkomaNtoso XML | מוסדות האיחוד האירופי | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+| **[python-docx-template](https://github.com/elapouya/python-docx-template)** | מנוע תבניות מבוסס Jinja2 ליצירת מסמכי Word | מפתחים | ![Stable](https://img.shields.io/badge/maturity-stable-lightblue) |
+| **[OpenFisca](https://github.com/openfisca/openfisca-core)** | מנוע סימולציית חקיקה פתוח — בשימוש ממשלות | ממשלות/מחקר | ![Production](https://img.shields.io/badge/maturity-production-green) |
 
 </div>
 
@@ -228,7 +288,7 @@
 
 *כישורים בקוד פתוח שמלמדים סוכני AI (Claude ועוד) לבצע משימות משפטיות מתמחות — מבדיקת חוזים ועד בדיקות ציות*
 
-> **מה זה Agent Skills?** כישורים הם מערכי הוראות שסוכני AI טוענים בצורה דינמית כדי לבצע משימות מתמחות. התקינו כל כישור עם `npx skills add <skill-name>`. למידע נוסף בקרו ב-[agentskills.io](https://agentskills.io).
+> **מה זה Agent Skills?** כישורים הם מערכי הוראות שסוכני AI טוענים בצורה דינמית כדי לבצע משימות מתמחות. למידע נוסף ולרשימה המלאה בקרו ב-[lawcal.ai/resources/skills](https://lawcal.ai/resources/skills).
 
 ### כישורים משפטיים ספציפיים
 
@@ -236,18 +296,18 @@
 
 <div dir="rtl">
 
-| **כישור** | **מה הוא עושה** | **התקנה** |
-|-----------|------------------|-----------|
-| **[legal-risk-assessment](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment)** | מטריצת סיכונים חומרה × סבירות עם קריטריוני הסלמה | `npx skills add legal-risk-assessment` |
-| **[review-contract](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract)** | בדיקת חוזה מול playbook משא ומתן; מייצר שינויי נוסח | `npx skills add review-contract` |
-| **[triage-nda](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda)** | מיון NDA מהיר → ניתוב ירוק / צהוב / אדום | `npx skills add triage-nda` |
-| **[compliance-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check)** | מזהה רגולציות רלוונטיות ואישורים נדרשים | `npx skills add compliance-check` |
-| **[compliance-tracking](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/compliance-tracking)** | בדיקת GDPR/CCPA/DPA, בקשות נושאי מידע, ניטור רגולטורי | `npx skills add compliance-tracking` |
-| **[legal-response](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-response)** | תגובות תבניתיות להקפאות ליטיגציה, צווים, בקשות מידע | `npx skills add legal-response` |
-| **[vendor-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/vendor-check)** | תצוגה מאוחדת של הסכמי ספקים + מעקב דדליינים | `npx skills add vendor-check` |
-| **[signature-request](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/signature-request)** | רשימת בדיקה טרום-חתימה + ניתוב חתימה אלקטרונית | `npx skills add signature-request` |
-| **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | תדריך משפטי יומי חוצה אימייל, יומן וחוזים | `npx skills add brief` |
-| **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | תדריך מובנה טרום-פגישה למשא ומתן/בדיקות ציות | `npx skills add meeting-briefing` |
+| **כישור** | **מה הוא עושה** | **מקור** |
+|-----------|------------------|----------|
+| **[legal-risk-assessment](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment)** | מטריצת סיכונים חומרה × סבירות עם קריטריוני הסלמה | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[review-contract](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract)** | בדיקת חוזה מול playbook משא ומתן; מייצר שינויי נוסח | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[triage-nda](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda)** | מיון NDA מהיר → ניתוב ירוק / צהוב / אדום | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[compliance-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check)** | מזהה רגולציות רלוונטיות ואישורים נדרשים | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[compliance-tracking](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/compliance-tracking)** | בדיקת GDPR/CCPA/DPA, בקשות נושאי מידע, ניטור רגולטורי | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[legal-response](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-response)** | תגובות תבניתיות להקפאות ליטיגציה, צווים, בקשות מידע | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[vendor-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/vendor-check)** | תצוגה מאוחדת של הסכמי ספקים + מעקב דדליינים | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[signature-request](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/signature-request)** | רשימת בדיקה טרום-חתימה + ניתוב חתימה אלקטרונית | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | תדריך משפטי יומי חוצה אימייל, יומן וחוזים | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
+| **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | תדריך מובנה טרום-פגישה למשא ומתן/בדיקות ציות | [GitHub](https://github.com/anthropics/knowledge-work-plugins) |
 
 </div>
 
@@ -257,12 +317,30 @@
 
 <div dir="rtl">
 
-| **כישור** | **מה הוא עושה** | **התקנה** |
-|-----------|------------------|-----------|
-| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | חילוץ טקסט/טבלאות, יצירה, מיזוג/פיצול ומילוי טפסי PDF | `npx skills add pdf` |
-| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | יצירה, קריאה, עריכת מסמכי Word עם עיצוב ותבניות | `npx skills add docx` |
-| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | יצירה ועריכה של מצגות PowerPoint באופן תכנותי | `npx skills add pptx` |
-| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | יצירה, עריכה וניתוח גיליונות אלקטרוניים עם נוסחאות ותרשימים | `npx skills add xlsx` |
+| **כישור** | **מה הוא עושה** | **מקור** |
+|-----------|------------------|----------|
+| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | חילוץ טקסט/טבלאות, יצירה, מיזוג/פיצול ומילוי טפסי PDF | [GitHub](https://github.com/anthropics/skills) |
+| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | יצירה, קריאה, עריכת מסמכי Word עם עיצוב ותבניות | [GitHub](https://github.com/anthropics/skills) |
+| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | יצירה ועריכה של מצגות PowerPoint באופן תכנותי | [GitHub](https://github.com/anthropics/skills) |
+| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | יצירה, עריכה וניתוח גיליונות אלקטרוניים עם נוסחאות ותרשימים | [GitHub](https://github.com/anthropics/skills) |
+
+</div>
+
+---
+
+## ניהול ידע
+
+*כלים לניהול ידע, מחקר ורשימות אישיות — פופולריים בקרב עורכי דין ואנשי מקצוע*
+
+<div dir="rtl">
+
+| **פרויקט** | **תיאור** | **כוכבים** | **רישיון** |
+|-------------|-------------|-----------|------------|
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | סביבת עבודה All-in-one המשלבת מסמכים, לוח לבן ומסד נתונים | ⭐ 67k | קוד פתוח |
+| **[Memos](https://github.com/usememos/memos)** | מרכז תזכירים קל ומאורח עצמית לרישום מהיר | ⭐ 59k | MIT |
+| **[SiYuan](https://github.com/siyuan-note/siyuan)** | מערכת ניהול ידע אישית מאורחת עצמית עם הצפנה מלאה | ⭐ 42k | AGPL-3.0 |
+| **[Logseq](https://github.com/logseq/logseq)** | ניהול ידע ותוכן קוד-פתוח לחוקרים ועורכי דין | ⭐ 42k | AGPL-3.0 |
+| **[Obsidian](https://github.com/obsidianmd/obsidian-releases)** | בסיס ידע אישי מבוסס Markdown, נפוץ בקרב אנשי מקצוע משפטיים | ⭐ 16k | חינמי |
 
 </div>
 
@@ -322,6 +400,8 @@
 | **[Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp)** | מחקר אקדמי מאוצר | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Active](https://img.shields.io/badge/activity-active-green) |
 | **[Legal ML Datasets](https://github.com/neelguha/legal-ml-datasets)** | אוסף מקיף של מאגרי נתונים ומשימות למידת מכונה משפטית | ![Large](https://img.shields.io/badge/size-large-green) | ![Active](https://img.shields.io/badge/activity-active-green) |
 | **[EOLE Conference](https://eolevent.eu)** 🇪🇺 | אירוע החוק הפתוח והתוכנה החופשית האירופי | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
+| **[Awesome Legal Data](https://github.com/openlegaldata/awesome-legal-data)** | רשימה מאוצרת של כלים קוד-פתוח לתעשייה המשפטית | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[Stanford CodeX FutureLaw](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)** | כנס לגל-טק שנתי וקהילה מבית הספר למשפטים של סטנפורד | ![Large](https://img.shields.io/badge/size-large-green) | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
 
 </div>
 

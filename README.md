@@ -19,7 +19,7 @@
 ## What Makes This List Special?
 
 **Rigorous Quality Standards** → Only production-ready, actively maintained projects with real-world adoption  
-**Global Legal Coverage** → Worldwide scope with clear jurisdiction tagging (🇺🇸 🇪🇺 🇬🇧 🇩🇪 🇮🇳 🌍)  
+**Global Legal Coverage** → Worldwide scope with clear jurisdiction tagging (🇺🇸 🇪🇺 🇬🇧 🇩🇪 🇮🇳 🇮🇱 🌍)  
 **Practitioner-Tested Tools** → Real solutions that legal professionals deploy in actual workflows  
 **Premium AI Resources** → Curated datasets, benchmarks, and models purpose-built for legal applications  
 **Thriving Ecosystems** → Active communities driving innovation and collaborative development  
@@ -32,20 +32,23 @@
 
 | **Quick Navigation** | **Count** | **Best For** |
 |----------------------|-----------|--------------|
-| [NLP Libraries & Domain Models](#nlp-libraries--domain-models) | 7 projects | Text processing & analysis |
+| [NLP Libraries & Domain Models](#nlp-libraries--domain-models) | 10 projects | Text processing & analysis |
 | [AI-Powered Contract & Document Analytics](#ai-powered-contract--document-analytics) | 5 platforms | Contract intelligence |
-| [Legal Research & Case Law Data/APIs](#legal-research--case-law-dataapis) | 6 resources | Research & citations |
-| [E-Discovery & Litigation](#e-discovery--litigation) | 3 tools | Legal discovery |
+| [RAG & AI Infrastructure](#rag--ai-infrastructure) | 8 tools | Building legal AI apps |
+| [Agentic AI & Automation](#agentic-ai--automation) | 5 tools | AI agents & workflow automation |
+| [Legal Research & Case Law Data/APIs](#legal-research--case-law-dataapis) | 9 resources | Research & citations |
+| [E-Discovery & Litigation](#e-discovery--litigation) | 6 tools | Legal discovery & annotation |
 | [Speech Recognition & Transcription](#speech-recognition--transcription) | 10 tools | Audio/video transcription |
-| [Document Signing & Collaboration](#document-signing--collaboration) | 3 platforms | Digital signatures & wikis |
-| [Document Management, OCR & PDF](#document-management-ocr--pdf) | 9 solutions | Document processing |
-| [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 5 platforms | Automation & workflows |
+| [Document Signing & Collaboration](#document-signing--collaboration) | 5 platforms | Digital signatures & wikis |
+| [Document Management, OCR & PDF](#document-management-ocr--pdf) | 14 solutions | Document processing |
+| [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 7 platforms | Automation & workflows |
+| [Knowledge Management](#knowledge-management) | 5 tools | Research notes & PKM |
 | [AI Agent Skills for Legal Work](#ai-agent-skills-for-legal-work) | 14 skills | Legal AI automation |
 | [Datasets & Benchmarks](#datasets--benchmarks) | 10 collections | Training & evaluation |
 | [General-Purpose Document Intelligence](#general-purpose-document-intelligence-useful-for-legal) | 6 tools | Document understanding |
-| [Learning, Communities & Curations](#learning-communities--curations) | 4 communities | Education & networking |
+| [Learning, Communities & Curations](#learning-communities--curations) | 6 communities | Education & networking |
 
-**Total: 80+ High-Quality Open-Source Legal Tech Resources**
+**Total: 120+ High-Quality Open-Source Legal Tech Resources**
 
 ---
 
@@ -59,7 +62,7 @@
 ### For Developers
 1. **Begin with**: [NLP Libraries & Models](#nlp-libraries--domain-models) for text processing
 2. **Training data**: [Datasets & Benchmarks](#datasets--benchmarks) for model development  
-3. **Infrastructure**: [Document Intelligence](#general-purpose-document-intelligence-useful-for-legal) for pipelines
+3. **AI infrastructure**: [RAG & AI Infrastructure](#rag--ai-infrastructure) for building pipelines
 
 ### For Organizations
 1. **Enterprise solutions**: [OpenContracts](https://github.com/JSv4/OpenContracts) for contract analytics
@@ -72,15 +75,18 @@
 
 *Essential tools for processing and understanding legal text with specialized language models*
 
-| **Project** | **Focus** | **Scope** | **Status** |
-|-------------|-----------|-----------|------------|
-| **[LexNLP](https://github.com/LexPredict/lexpredict-lexnlp)** | Information extraction from unstructured legal text (Python) | Global | ![Active](https://img.shields.io/badge/status-active-green) |
-| **[Blackstone](https://github.com/ICLRandD/Blackstone)** | spaCy pipeline for long-form legal text processing | Global | ![Active](https://img.shields.io/badge/status-active-green) |
-| **[LEGAL-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased)** | Pretrained BERT variants for legal corpora (contracts, ECHR, EU law) | EU/Global | ![Stable](https://img.shields.io/badge/status-stable-blue) |
-| **[InLegalBERT](https://github.com/Law-AI/pretraining-bert)** 🇮🇳 | BERT models and recipes for Indian law corpora | India | ![Active](https://img.shields.io/badge/status-active-green) |
-| **[CaseHOLD](https://github.com/reglab/casehold)** | Tasks and baselines for case-law holdings analysis | Global | ![Research](https://img.shields.io/badge/status-research-orange) |
-| **[LeXLMs](https://github.com/coastalcph/lexlms)** | Corpora and probing tasks for legal language models | Multilingual | ![Research](https://img.shields.io/badge/status-research-orange) |
-| **[Legal-HeBERT](https://github.com/avichaychriqui/Legal-HeBERT)** 🇮🇱 | BERT model for Hebrew legal and legislative domains | Israel | ![Research](https://img.shields.io/badge/status-research-orange) |
+| **Project** | **Description** | **Scope** | **Stars** | **License** |
+|-------------|-----------------|-----------|-----------|-------------|
+| **[Hugging Face Transformers](https://github.com/huggingface/transformers)** | Universal toolkit for fine-tuning and running transformer models on legal text | Global | ⭐ 159k | Apache-2.0 |
+| **[spaCy](https://github.com/explosion/spaCy)** | Industrial-strength NLP in Python — foundation for many legal NLP pipelines | Global | ⭐ 33k | MIT |
+| **[Sentence Transformers](https://github.com/UKPLab/sentence-transformers)** | State-of-the-art text embeddings for semantic legal search | Global | ⭐ 19k | Apache-2.0 |
+| **[LexNLP](https://github.com/LexPredict/lexpredict-lexnlp)** | Information extraction from unstructured legal text (Python) | Global | — | Apache-2.0 |
+| **[Blackstone](https://github.com/ICLRandD/Blackstone)** | spaCy pipeline for long-form legal text processing | Global | — | MIT |
+| **[LEGAL-BERT](https://huggingface.co/nlpaueb/legal-bert-base-uncased)** | Pretrained BERT variants for legal corpora (contracts, ECHR, EU law) | EU/Global | — | — |
+| **[InLegalBERT](https://github.com/Law-AI/pretraining-bert)** 🇮🇳 | BERT models and recipes for Indian law corpora | India | — | — |
+| **[LeXLMs](https://github.com/coastalcph/lexlms)** | Corpora and probing tasks for legal language models | Multilingual | — | — |
+| **[Legal-HeBERT](https://github.com/avichaychriqui/Legal-HeBERT)** 🇮🇱 | BERT model for Hebrew legal and legislative domains | Israel | — | — |
+| **[CaseHOLD](https://github.com/reglab/casehold)** | Tasks and baselines for case-law holdings analysis | Global | — | — |
 
 ---
 
@@ -89,12 +95,43 @@
 *Enterprise-grade platforms for intelligent contract analysis and document understanding*
 
 | **Project** | **Features** | **Best For** | **Maturity** |
-|-------------|--------------|--------------|--------------|
+|-------------|--------------|--------------|---------------|
 | **[OpenContracts](https://github.com/JSv4/OpenContracts)** | Enterprise document analytics with AI-powered analysis (GPL-3) | Large organizations | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
 | **[ContraxSuite](https://github.com/LexPredict/lexpredict-contraxsuite)** | Full contract analytics & document platform (AGPL) | Commercial use | ![Production](https://img.shields.io/badge/maturity-production-green) |
 | **[LawGlance](https://github.com/lawglance/lawglance)** | Free, open-source RAG-based AI legal assistant | SME & individuals | ![Community](https://img.shields.io/badge/maturity-community-blue) |
 | **[OpenEDGAR](https://github.com/LexPredict/openedgar)** 🇺🇸 | Framework for searchable EDGAR filings databases | US Securities | ![Stable](https://img.shields.io/badge/maturity-stable-lightblue) |
 | **[CUAD Tools](https://github.com/TheAtticusProject/cuad)** | Code and data interfaces for Contract Understanding | Research | ![Research](https://img.shields.io/badge/maturity-research-orange) |
+
+---
+
+## RAG & AI Infrastructure
+
+*Core infrastructure for building retrieval-augmented and AI-powered legal applications*
+
+| **Project** | **Description** | **Stars** | **License** |
+|-------------|-----------------|-----------|-------------|
+| **[Ollama](https://github.com/ollama/ollama)** | Run large language models locally — essential for confidential legal documents | ⭐ 168k | MIT |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | The agent engineering platform — build LLM apps and RAG pipelines | ⭐ 133k | MIT |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** | Self-hosted ChatGPT-like interface for local and remote LLMs | ⭐ 130k | — |
+| **[LlamaIndex](https://github.com/run-llama/llama_index)** | Data framework for building LLM applications over your documents | ⭐ 48k | MIT |
+| **[Qdrant](https://github.com/qdrant/qdrant)** | High-performance vector database for semantic search and AI applications | ⭐ 30k | Apache-2.0 |
+| **[Chroma](https://github.com/chroma-core/chroma)** | Open-source AI-native vector database for embeddings | ⭐ 27k | Apache-2.0 |
+| **[Haystack](https://github.com/deepset-ai/haystack)** | Production-grade NLP framework for document search and QA pipelines | ⭐ 25k | Apache-2.0 |
+| **[pgvector](https://github.com/pgvector/pgvector)** | Vector similarity search extension for PostgreSQL — zero-infra RAG | ⭐ 21k | — |
+
+---
+
+## Agentic AI & Automation
+
+*Frameworks and platforms for building AI agents and automating legal workflows*
+
+| **Project** | **Description** | **Stars** | **License** |
+|-------------|-----------------|-----------|-------------|
+| **[n8n](https://github.com/n8n-io/n8n)** | Fair-code workflow automation with 400+ integrations and native AI — ideal for legal ops | ⭐ 183k | — |
+| **[Browser Use](https://github.com/browser-use/browser-use)** | AI agents that control a browser to automate web-based legal research | ⭐ 86k | MIT |
+| **[AutoGen](https://github.com/microsoft/autogen)** | Microsoft’s multi-agent framework for orchestrating complex AI workflows | ⭐ 57k | CC-BY-4.0 |
+| **[CrewAI](https://github.com/crewAIInc/crewAI)** | Framework for orchestrating role-playing autonomous AI agents | ⭐ 48k | MIT |
+| **[Activepieces](https://github.com/activepieces/activepieces)** | Open-source no-code automation with MCP support and self-hosting | ⭐ 22k | — |
 
 ---
 
@@ -110,18 +147,24 @@
 | **[Caselaw Access Project](https://lil.law.harvard.edu/our-work/caselaw-access-project/)** 🇺🇸 | 6.7M+ U.S. court decisions with API | United States | ![API](https://img.shields.io/badge/API-available-green) |
 | **[UK National Archives](https://nationalarchives.github.io/ds-find-caselaw-docs/public/)** 🇬🇧 | Public API for UK court judgments | United Kingdom | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Open Legal Data](https://github.com/openlegaldata/oldp)** 🇩🇪 | German legal data platform & API | Germany | ![Platform](https://img.shields.io/badge/type-platform-orange) |
+| **[EUR-Lex SPARQL](https://eur-lex.europa.eu/content/help/data-reuse/sparql-endpoint.html)** 🇪🇺 | Official EU law SPARQL API — access all EU legislation and case law | European Union | ![API](https://img.shields.io/badge/API-available-green) |
+| **[Open Knesset](https://github.com/hasadna/Open-Knesset)** 🇮🇱 | Open data platform for Israeli Knesset legislative proceedings and members | Israel | ![Platform](https://img.shields.io/badge/type-platform-orange) |
+| **[OpenAlex](https://github.com/ourresearch/openalex-api-tutorials)** | Fully open catalog of 250M+ scholarly works including legal research | Global | ![API](https://img.shields.io/badge/API-available-green) |
 
 ---
 
 ## E-Discovery & Litigation
 
-*Specialized tools for legal discovery, document review, and litigation support*
+*Specialized tools for legal discovery, document review, annotation, and litigation support*
 
-| **Project** | **Capabilities** | **Use Case** | **License** |
-|-------------|------------------|--------------|-------------|
-| **[FreeEed](https://github.com/shmsoft/FreeEed)** | Complete eDiscovery processing (OCR, indexing, metadata) | Large-scale discovery | ![Open Source](https://img.shields.io/badge/license-Apache-blue) |
-| **[FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** | Information retrieval engine based on scikit-learn | Document analysis | ![Open Source](https://img.shields.io/badge/license-BSD-green) |
-| **[FOIAMachine](https://github.com/cirlabs/foiamachine)** 🇺🇸 | Manage and send FOIA requests with agency directory | Government transparency | ![Open Source](https://img.shields.io/badge/license-MIT-lightblue) |
+| **Project** | **Capabilities** | **Use Case** | **Stars** |
+|-------------|------------------|--------------|----------|
+| **[Label Studio](https://github.com/HumanSignal/label-studio)** | Multi-type data labeling and annotation tool | Legal document annotation & NLP training data | ⭐ 27k |
+| **[doccano](https://github.com/doccano/doccano)** | Open source annotation tool for ML practitioners | NLP training data from legal corpora | ⭐ 11k |
+| **[Apache Tika](https://github.com/apache/tika)** | Detects and extracts metadata and text from 1000+ file types | eDiscovery content analysis | ⭐ 4k |
+| **[FreeEed](https://github.com/shmsoft/FreeEed)** | Complete eDiscovery processing (OCR, indexing, metadata) | Large-scale discovery | — |
+| **[FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** | Information retrieval engine based on scikit-learn | Document analysis | — |
+| **[FOIAMachine](https://github.com/cirlabs/foiamachine)** 🇺🇸 | Manage and send FOIA requests with agency directory | Government transparency | — |
 
 ---
 
@@ -146,13 +189,15 @@
 
 ## Document Signing & Collaboration
 
-*Platforms for digital document signing and collaborative documentation*
+*Platforms for digital document signing, secure notes, and collaborative documentation*
 
-| **Project** | **Primary Use** | **Best For** | **License** |
-|-------------|-----------------|--------------|-------------|
-| **[Documenso](https://github.com/documenso/documenso)** | Open-source DocuSign alternative | Digital signatures | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
-| **[DocuSeal](https://github.com/docusealco/docuseal)** | Document filling and signing platform | PDF forms & signatures | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
-| **[Docmost](https://github.com/docmost/docmost)** | Collaborative wiki and documentation software | Team documentation | ![AGPL](https://img.shields.io/badge/license-AGPL-blue) |
+| **Project** | **Primary Use** | **Stars** | **License** |
+|-------------|-----------------|-----------|-------------|
+| **[Documenso](https://github.com/documenso/documenso)** | Open-source DocuSign alternative | — | AGPL |
+| **[DocuSeal](https://github.com/docusealco/docuseal)** | Document filling and signing platform | — | AGPL |
+| **[OpenSign](https://github.com/OpenSignLabs/OpenSign)** | Free & open-source DocuSign alternative with self-hosting | ⭐ 6k | — |
+| **[Notesnook](https://github.com/streetwriters/notesnook)** | Fully open source & E2E-encrypted note-taking — ideal for sensitive legal work | ⭐ 14k | GPL-3.0 |
+| **[Docmost](https://github.com/docmost/docmost)** | Collaborative wiki and documentation software | — | AGPL |
 
 ---
 
@@ -160,31 +205,52 @@
 
 *Essential tools for document digitization, management, and processing workflows*
 
-| **Project** | **Core Function** | **Performance** | **Special Features** |
-|-------------|-------------------|-----------------|---------------------|
-| **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** | Self-hosted document management system | ![High](https://img.shields.io/badge/performance-high-green) | Searchable archive, AI tagging |
-| **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** | Local web-based PDF toolbox | ![Fast](https://img.shields.io/badge/performance-fast-brightgreen) | Split/merge/convert/optimize |
-| **[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** | Add OCR text layer to scanned PDFs | ![Reliable](https://img.shields.io/badge/performance-reliable-blue) | Searchable PDF/A output |
-| **[Paperless-AI](https://github.com/clusterzx/paperless-ai)** | AI addon for paperless-ngx | ![Smart](https://img.shields.io/badge/performance-smart-purple) | Semantic search, auto-classification |
-| **[paperless-gpt](https://github.com/icereed/paperless-gpt)** | ChatGPT integration for paperless-ngx | ![AI](https://img.shields.io/badge/feature-AI_chat-orange) | Document Q&A, AI assistance |
-| **[Tesseract](https://github.com/tesseract-ocr/tesseract)** | Industry-standard OCR engine | ![Standard](https://img.shields.io/badge/status-industry_standard-darkgreen) | Text recognition, 100+ languages |
-| **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** | Ready-to-use OCR with 80+ languages | ![Easy](https://img.shields.io/badge/usability-easy-brightgreen) | Quick text extraction |
-| **[markitdown](https://github.com/microsoft/markitdown)** | Convert documents to Markdown | ![Convert](https://img.shields.io/badge/feature-conversion-lightblue) | PDF/DOCX/PPTX to Markdown |
-| **[ExifTool](https://github.com/exiftool/exiftool)** | Read/write metadata in files | ![Metadata](https://img.shields.io/badge/focus-metadata-purple) | Digital evidence analysis |
+| **Project** | **Core Function** | **Stars** | **License** |
+|-------------|-------------------|-----------|-------------|
+| **[markitdown](https://github.com/microsoft/markitdown)** | Convert PDF/DOCX/PPTX and more to Markdown | ⭐ 93k | MIT |
+| **[Tesseract](https://github.com/tesseract-ocr/tesseract)** | Industry-standard OCR engine, 100+ languages | ⭐ 58k | Apache-2.0 |
+| **[Docling](https://github.com/docling-project/docling)** | Modern document parsing — PDF/DOCX/PPTX/HTML | ⭐ 57k | MIT |
+| **[Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF)** | Local web-based PDF toolbox (split/merge/convert/OCR) | ⭐ 50k | GPL-3.0 |
+| **[Gotenberg](https://github.com/gotenberg/gotenberg)** | Developer-friendly API for converting HTML/DOCX/more to PDF | ⭐ 12k | MIT |
+| **[pdfplumber](https://github.com/jsvine/pdfplumber)** | Extract text, tables, and metadata from PDFs with precision | ⭐ 10k | MIT |
+| **[PyMuPDF](https://github.com/pymupdf/PyMuPDF)** | High-performance Python library for PDF extraction, annotation, and rendering | ⭐ 9k | AGPL-3.0 |
+| **[WeasyPrint](https://github.com/Kozea/WeasyPrint)** | Convert HTML/CSS to PDF — great for generating court-ready documents | ⭐ 9k | BSD-3-Clause |
+| **[OCRmyPDF](https://github.com/ocrmypdf/OCRmyPDF)** | Add searchable OCR text layer to scanned PDFs | — | MPL-2.0 |
+| **[docTR](https://github.com/mindee/doctr)** | Deep learning OCR engine with strong accuracy on structured documents | ⭐ 6k | Apache-2.0 |
+| **[EasyOCR](https://github.com/JaidedAI/EasyOCR)** | Ready-to-use OCR with 80+ languages | — | Apache-2.0 |
+| **[paperless-ngx](https://github.com/paperless-ngx/paperless-ngx)** | Self-hosted document management system with AI tagging | — | GPL-3.0 |
+| **[Paperless-AI](https://github.com/clusterzx/paperless-ai)** | AI addon for paperless-ngx (semantic search, auto-classification) | — | — |
+| **[ExifTool](https://github.com/exiftool/exiftool)** | Read/write metadata in files — digital evidence analysis | — | GPL |
 
 ---
 
 ## Document Assembly & Rules-as-Code
 
-*Platforms for automating legal document creation and implementing legal logic*
+*Platforms for automating legal document creation and implementing legal logic as code*
 
 | **Project** | **Primary Use** | **Target Users** | **Technical Level** |
-|-------------|-----------------|------------------|-------------------|
+|-------------|-----------------|------------------|---------------------|
 | **[docassemble](https://github.com/jhpyle/docassemble)** | Expert-system platform for guided interviews | Legal professionals | ![Medium](https://img.shields.io/badge/technical-medium-orange) |
 | **[AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine)** 🇺🇸 | Court-form automation toolkit | Court systems | ![Low](https://img.shields.io/badge/technical-low-green) |
+| **[python-docx-template](https://github.com/elapouya/python-docx-template)** | Jinja2-based template engine for generating Word legal documents | Developers | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[Blawx](https://github.com/Lexpedite/blawx)** | Visual Rules-as-Code environment | Legal technologists | ![High](https://img.shields.io/badge/technical-high-red) |
-| **[Catala](https://github.com/CatalaLang/catala)** | Programming language for statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
+| **[Catala](https://github.com/CatalaLang/catala)** | Programming language for faithful statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
+| **[OpenFisca](https://github.com/openfisca/openfisca-core)** | Open legislation simulation engine — used by governments to model social laws | Govtech / Developers | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | Legislative editing platform for AkomaNtoso XML format | EU institutions | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+
+---
+
+## Knowledge Management
+
+*Tools for building personal knowledge bases, research notes, and collaborative workspaces*
+
+| **Project** | **Description** | **Stars** | **License** |
+|-------------|-----------------|-----------|-------------|
+| **[AFFiNE](https://github.com/toeverything/AFFiNE)** | Next-gen knowledge base combining docs, whiteboard, and database — privacy-first | ⭐ 67k | — |
+| **[Memos](https://github.com/usememos/memos)** | Open-source, self-hosted note-taking built for quick capture — Markdown-native | ⭐ 59k | MIT |
+| **[SiYuan](https://github.com/siyuan-note/siyuan)** | Privacy-first, self-hosted personal knowledge management with full encryption | ⭐ 42k | AGPL-3.0 |
+| **[Logseq](https://github.com/logseq/logseq)** | Privacy-first open-source platform for knowledge management — loved by researchers and lawyers | ⭐ 42k | AGPL-3.0 |
+| **[Obsidian](https://github.com/obsidianmd/obsidian-releases)** | Markdown-based personal knowledge base, widely used by legal professionals | ⭐ 16k | — |
 
 ---
 
@@ -192,35 +258,35 @@
 
 *Open-source skills that teach AI agents (Claude, etc.) to perform specialized legal tasks — from contract review to compliance checks*
 
-> **What are Agent Skills?** Skills are instruction sets that AI agents load dynamically to perform specialized tasks. Install any skill with `npx skills add <skill-name>`. Learn more at [agentskills.io](https://agentskills.io).
+> **What are Agent Skills?** Skills are instruction sets that AI agents load dynamically to perform specialized tasks. Learn more at [lawcal.ai/resources/skills](https://lawcal.ai/resources/skills).
 
 ### Legal-Specific Skills
 
-*From [![](https://img.shields.io/github/stars/anthropics/knowledge-work-plugins?style=social)](https://github.com/anthropics/knowledge-work-plugins) — Apache-2.0 licensed*
+*From [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Apache-2.0 licensed*
 
-| **Skill** | **What It Does** | **Install** |
-|-----------|------------------|-------------|
-| **[legal-risk-assessment](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment)** | Severity × likelihood risk matrix with escalation criteria | `npx skills add legal-risk-assessment` |
-| **[review-contract](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract)** | Contract review against negotiation playbook; generates redlines | `npx skills add review-contract` |
-| **[triage-nda](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda)** | Rapid NDA triage → GREEN / YELLOW / RED routing | `npx skills add triage-nda` |
-| **[compliance-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check)** | Surfaces applicable regulations and required approvals | `npx skills add compliance-check` |
-| **[compliance-tracking](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/compliance-tracking)** | GDPR/CCPA/DPA review, data subject requests, regulatory monitoring | `npx skills add compliance-tracking` |
-| **[legal-response](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-response)** | Templated responses to litigation holds, subpoenas, data requests | `npx skills add legal-response` |
-| **[vendor-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/vendor-check)** | Consolidated view of vendor agreements + deadline tracking | `npx skills add vendor-check` |
-| **[signature-request](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/signature-request)** | Pre-signature checklist + e-signature routing | `npx skills add signature-request` |
-| **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | Daily legal briefing across email, calendar, and contracts | `npx skills add brief` |
-| **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | Structured pre-meeting briefing for negotiations/compliance reviews | `npx skills add meeting-briefing` |
+| **Skill** | **What It Does** |
+|-----------|------------------|
+| **[legal-risk-assessment](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-risk-assessment)** | Severity × likelihood risk matrix with escalation criteria |
+| **[review-contract](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/review-contract)** | Contract review against negotiation playbook; generates redlines |
+| **[triage-nda](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/triage-nda)** | Rapid NDA triage → GREEN / YELLOW / RED routing |
+| **[compliance-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/compliance-check)** | Surfaces applicable regulations and required approvals |
+| **[compliance-tracking](https://github.com/anthropics/knowledge-work-plugins/tree/main/operations/skills/compliance-tracking)** | GDPR/CCPA/DPA review, data subject requests, regulatory monitoring |
+| **[legal-response](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/legal-response)** | Templated responses to litigation holds, subpoenas, data requests |
+| **[vendor-check](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/vendor-check)** | Consolidated view of vendor agreements + deadline tracking |
+| **[signature-request](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/signature-request)** | Pre-signature checklist + e-signature routing |
+| **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | Daily legal briefing across email, calendar, and contracts |
+| **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | Structured pre-meeting briefing for negotiations/compliance reviews |
 
 ### Document Processing Skills
 
-*From [![](https://img.shields.io/github/stars/anthropics/skills?style=social)](https://github.com/anthropics/skills) — powers Claude's built-in document capabilities*
+*From [anthropics/skills](https://github.com/anthropics/skills)*
 
-| **Skill** | **What It Does** | **Install** |
-|-----------|------------------|-------------|
-| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | Extract text/tables, create, merge/split, and fill PDF forms | `npx skills add pdf` |
-| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | Create, read, edit Word documents with formatting and templates | `npx skills add docx` |
-| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | Create and edit PowerPoint presentations programmatically | `npx skills add pptx` |
-| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | Create, edit, and analyze spreadsheets with formulas and charts | `npx skills add xlsx` |
+| **Skill** | **What It Does** |
+|-----------|------------------|
+| **[pdf](https://github.com/anthropics/skills/tree/main/skills/pdf)** | Extract text/tables, create, merge/split, and fill PDF forms |
+| **[docx](https://github.com/anthropics/skills/tree/main/skills/docx)** | Create, read, edit Word documents with formatting and templates |
+| **[pptx](https://github.com/anthropics/skills/tree/main/skills/pptx)** | Create and edit PowerPoint presentations programmatically |
+| **[xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx)** | Create, edit, and analyze spreadsheets with formulas and charts |
 
 ---
 
@@ -229,7 +295,7 @@
 *High-quality training data and evaluation benchmarks for legal AI development*
 
 | **Dataset** | **Content Type** | **Coverage** | **Scale** | **Best For** |
-|-------------|------------------|--------------|-----------|--------------|
+|-------------|------------------|--------------|-----------|---------------|
 | **[Pile of Law](https://github.com/Breakend/PileOfLaw)** 🇺🇸 | Legal/administrative texts | US-centric | ![Large](https://img.shields.io/badge/scale-large-green) | Language model training |
 | **[MultiLegalPile](https://huggingface.co/datasets/joelniklaus/Multi_Legal_Pile)** 🌍 | Multilingual legal corpus | 24 languages | ![Massive](https://img.shields.io/badge/scale-massive-darkgreen) | Multilingual models |
 | **[LexGLUE](https://github.com/coastalcph/lex-glue)** 🇪🇺🇺🇸 | Multi-task benchmark | EU/US/Multi | ![Medium](https://img.shields.io/badge/scale-medium-blue) | Legal NLU evaluation |
@@ -252,9 +318,9 @@
 | **[GROBID](https://github.com/kermitt2/grobid)** | ML extraction of document structure | PDF → TEI/XML | ![High](https://img.shields.io/badge/accuracy-high-green) |
 | **[Unstructured](https://github.com/Unstructured-IO/unstructured)** | Pre-processing for RAG pipelines | PDF/Office/HTML | ![Versatile](https://img.shields.io/badge/type-versatile-blue) |
 | **[Layout Parser](https://github.com/Layout-Parser/layout-parser)** | Deep learning layout detection | Multi-format | ![Advanced](https://img.shields.io/badge/tech-advanced-purple) |
-| **[Docling](https://github.com/docling-project/docling)** | Modern document parsing | PDF/DOCX/PPTX/HTML | ![Modern](https://img.shields.io/badge/approach-modern-lightgreen) |
 | **[Nougat](https://github.com/facebookresearch/nougat)** | Neural OCR for academic documents | Academic PDFs | ![Specialized](https://img.shields.io/badge/focus-specialized-orange) |
 | **[Marker](https://github.com/datalab-to/marker)** | Fast PDF to Markdown conversion | PDF | ![Fast](https://img.shields.io/badge/speed-fast-brightgreen) |
+| **[Docling](https://github.com/docling-project/docling)** | Modern document parsing | PDF/DOCX/PPTX/HTML | ![Modern](https://img.shields.io/badge/approach-modern-lightgreen) |
 
 ---
 
@@ -262,12 +328,14 @@
 
 *Essential communities and learning resources for legal AI professionals*
 
-| **Resource** | **Focus** | **Community Size** | **Activity Level** |
-|--------------|-----------|-------------------|-------------------|
-| **[Free Law Project](https://github.com/freelawproject)** | Open legal data ecosystem | ![Large](https://img.shields.io/badge/size-large-green) | ![Very Active](https://img.shields.io/badge/activity-very_active-brightgreen) |
-| **[Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp)** | Curated academic research | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Active](https://img.shields.io/badge/activity-active-green) |
-| **[Legal ML Datasets](https://github.com/neelguha/legal-ml-datasets)** | Comprehensive collection of legal ML datasets and tasks | ![Large](https://img.shields.io/badge/size-large-green) | ![Active](https://img.shields.io/badge/activity-active-green) |
-| **[EOLE Conference](https://eolevent.eu)** 🇪🇺 | European Open Source & Free Software Law Event | ![Medium](https://img.shields.io/badge/size-medium-blue) | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
+| **Resource** | **Focus** | **Link** | **Activity Level** |
+|--------------|-----------|----------|--------------------|
+| **[Free Law Project](https://github.com/freelawproject)** | Open legal data ecosystem | GitHub Org | ![Very Active](https://img.shields.io/badge/activity-very_active-brightgreen) |
+| **[Awesome Legal NLP](https://github.com/maastrichtlawtech/awesome-legal-nlp)** | Curated academic research | GitHub | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[Legal ML Datasets](https://github.com/neelguha/legal-ml-datasets)** | Comprehensive legal ML datasets collection | GitHub | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[Awesome Legal Data](https://github.com/openlegaldata/awesome-legal-data)** | Curated open-source tools for the legal industry | GitHub | ![Active](https://img.shields.io/badge/activity-active-green) |
+| **[Stanford CodeX FutureLaw](https://law.stanford.edu/codex-the-stanford-center-for-legal-informatics/)** | Annual legal tech conference from Stanford Law | Website | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
+| **[EOLE Conference](https://eolevent.eu)** 🇪🇺 | European Open Source & Free Software Law Event | Website | ![Annual](https://img.shields.io/badge/activity-annual-orange) |
 
 ---
 
@@ -343,7 +411,7 @@ npx awesome-lint
 
 ### **Credits**
 
-**Curated by [Chen Friedman](https://www.linkedin.com/in/chenfriedman/)**
+**Curated by [Chen Friedman](https://www.linkedin.com/in/chenfriedman/)**  
 **Powered by [Lawcal AI](https://lawcal.ai)**
 
 ---
