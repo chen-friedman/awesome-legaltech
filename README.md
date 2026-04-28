@@ -141,6 +141,7 @@
 
 | **Project** | **Coverage** | **Jurisdiction** | **API Access** |
 |-------------|--------------|------------------|----------------|
+| **[AI Laws by State](https://www.ailawsbystate.com)** 🇺🇸 | 50-state tracker for U.S. AI legislation — bill status, effective dates, penalty structures, topic tags (deepfakes, hiring, healthcare AI, disclosure, bias audits); sourced from primary state legislature feeds | United States | ![Open](https://img.shields.io/badge/tier-open-green) |
 | **[CourtListener](https://github.com/freelawproject/courtlistener)** 🇺🇸 | Primary legal data & research platform | United States | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Juriscraper](https://github.com/freelawproject/juriscraper)** 🇺🇸 | Scrapers for opinions, oral arguments, PACER content | United States | ![Tools](https://img.shields.io/badge/type-tools-blue) |
 | **[Eyecite](https://github.com/freelawproject/eyecite)** 🇺🇸 | Fast, robust legal citation extractor | United States | ![Library](https://img.shields.io/badge/type-library-purple) |
