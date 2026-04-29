@@ -141,6 +141,7 @@
 
 | **Project** | **Coverage** | **Jurisdiction** | **API Access** |
 |-------------|--------------|------------------|----------------|
+| **[Avukatistan](https://avukatistan.com)** 🇹🇷 | Turkish legal research and lawyer discovery platform | Turkey | ![Platform](https://img.shields.io/badge/type-platform-orange) |
 | **[CourtListener](https://github.com/freelawproject/courtlistener)** 🇺🇸 | Primary legal data & research platform | United States | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Juriscraper](https://github.com/freelawproject/juriscraper)** 🇺🇸 | Scrapers for opinions, oral arguments, PACER content | United States | ![Tools](https://img.shields.io/badge/type-tools-blue) |
 | **[Eyecite](https://github.com/freelawproject/eyecite)** 🇺🇸 | Fast, robust legal citation extractor | United States | ![Library](https://img.shields.io/badge/type-library-purple) |
