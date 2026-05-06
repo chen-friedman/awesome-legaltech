@@ -41,7 +41,7 @@
 | [Speech Recognition & Transcription](#speech-recognition--transcription) | 10 tools | Audio/video transcription |
 | [Document Signing & Collaboration](#document-signing--collaboration) | 5 platforms | Digital signatures & wikis |
 | [Document Management, OCR & PDF](#document-management-ocr--pdf) | 14 solutions | Document processing |
-| [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 7 platforms | Automation & workflows |
+| [Document Assembly & Rules-as-Code](#document-assembly--rules-as-code) | 8 platforms | Automation & workflows |
 | [Knowledge Management](#knowledge-management) | 5 tools | Research notes & PKM |
 | [AI Agent Skills for Legal Work](#ai-agent-skills-for-legal-work) | 14 skills | Legal AI automation |
 | [Datasets & Benchmarks](#datasets--benchmarks) | 10 collections | Training & evaluation |
@@ -237,6 +237,7 @@
 | **[Catala](https://github.com/CatalaLang/catala)** | Programming language for faithful statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[OpenFisca](https://github.com/openfisca/openfisca-core)** | Open legislation simulation engine — used by governments to model social laws | Govtech / Developers | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | Legislative editing platform for AkomaNtoso XML format | EU institutions | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+| **SEC Filing Microtools** 🇺🇸 ([Fee](https://github.com/Turner-Levey/sec-filing-fee-calculator), [13D/13G](https://github.com/Turner-Levey/sec-13d-13g-deadline-calculator), [Form D](https://github.com/Turner-Levey/form-d-deadline-calculator)) | Browser-only calculators for SEC filing fee and deadline workflows with memo/CSV exports | Securities counsel / Legal ops | ![Low](https://img.shields.io/badge/technical-low-green) |
 
 ---
 
