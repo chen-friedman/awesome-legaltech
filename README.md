@@ -165,6 +165,7 @@
 | **[FreeEed](https://github.com/shmsoft/FreeEed)** | Complete eDiscovery processing (OCR, indexing, metadata) | Large-scale discovery | — |
 | **[FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** | Information retrieval engine based on scikit-learn | Document analysis | — |
 | **[FOIAMachine](https://github.com/cirlabs/foiamachine)** 🇺🇸 | Manage and send FOIA requests with agency directory | Government transparency | — |
+| **[FOIA 20 Working Day Deadline Calculator](https://github.com/Turner-Levey/foia-deadline-calculator)** 🇺🇸 | Calculates federal FOIA 20-working-day response deadlines with weekend and federal holiday handling | Government transparency | — |
 
 ---
 
