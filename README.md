@@ -277,6 +277,14 @@
 | **[brief](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/brief)** | Daily legal briefing across email, calendar, and contracts |
 | **[meeting-briefing](https://github.com/anthropics/knowledge-work-plugins/tree/main/legal/skills/meeting-briefing)** | Structured pre-meeting briefing for negotiations/compliance reviews |
 
+### Jurisdiction-Specific Skills
+
+*Skills tailored for civil-law and non-US jurisdictions*
+
+| **Skill** | **Jurisdiction** | **What It Does** |
+|-----------|------------------|------------------|
+| **[direito-familiar-imobiliario](https://github.com/maiconfuhr/direito-familiar-imobiliario)** | 🇧🇷 Brazil (pt-BR) | Orients laypeople through Brazilian real estate regularization (usucapião, REURB), divorce/asset division (5 marital regimes), and inheritance/probate (ITCMD post-LC 227/2026). Includes glossary, document checklists, cost calculator, and 75+ questions for the contracted attorney. Legislation through May 2026. |
+
 ### Document Processing Skills
 
 *From [anthropics/skills](https://github.com/anthropics/skills)*
