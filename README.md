@@ -97,6 +97,7 @@
 | **Project** | **Features** | **Best For** | **Maturity** |
 |-------------|--------------|--------------|---------------|
 | **[OpenContracts](https://github.com/JSv4/OpenContracts)** | Enterprise document analytics with AI-powered analysis (GPL-3) | Large organizations | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+| **[Clarvia](https://github.com/clarvia-org/clarvia-graph)** | Open-source bereavement compliance checklist for European families. Source-backed legal deadlines, multilingual, structured as a knowledge graph | Civic-tech / Families | ![Community](https://img.shields.io/badge/maturity-community-blue) |
 | **[ContraxSuite](https://github.com/LexPredict/lexpredict-contraxsuite)** | Full contract analytics & document platform (AGPL) | Commercial use | ![Production](https://img.shields.io/badge/maturity-production-green) |
 | **[LawGlance](https://github.com/lawglance/lawglance)** | Free, open-source RAG-based AI legal assistant | SME & individuals | ![Community](https://img.shields.io/badge/maturity-community-blue) |
 | **[OpenEDGAR](https://github.com/LexPredict/openedgar)** 🇺🇸 | Framework for searchable EDGAR filings databases | US Securities | ![Stable](https://img.shields.io/badge/maturity-stable-lightblue) |
