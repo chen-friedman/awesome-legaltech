@@ -132,6 +132,7 @@
 | **[AutoGen](https://github.com/microsoft/autogen)** | Microsoft’s multi-agent framework for orchestrating complex AI workflows | ⭐ 57k | CC-BY-4.0 |
 | **[CrewAI](https://github.com/crewAIInc/crewAI)** | Framework for orchestrating role-playing autonomous AI agents | ⭐ 48k | MIT |
 | **[Activepieces](https://github.com/activepieces/activepieces)** | Open-source no-code automation with MCP support and self-hosting | ⭐ 22k | — |
+| **[contract-ops-mcp](https://github.com/DrBaher/contract-ops-mcp)** | MCP server exposing nine local-first contract CLIs (extract/draft/lint/compare/review/sign) as agent tools | — | MIT |
 
 ---
 
@@ -196,6 +197,7 @@
 | **[Documenso](https://github.com/documenso/documenso)** | Open-source DocuSign alternative | — | AGPL |
 | **[DocuSeal](https://github.com/docusealco/docuseal)** | Document filling and signing platform | — | AGPL |
 | **[OpenSign](https://github.com/OpenSignLabs/OpenSign)** | Free & open-source DocuSign alternative with self-hosting | ⭐ 6k | — |
+| **[sign-cli](https://github.com/DrBaher/sign-cli)** | Fully-offline, self-hosted DocuSign alternative (PAdES; CLI + MCP, cryptographic verify, hash-chained audit) | — | MIT |
 | **[Notesnook](https://github.com/streetwriters/notesnook)** | Fully open source & E2E-encrypted note-taking — ideal for sensitive legal work | ⭐ 14k | GPL-3.0 |
 | **[Docmost](https://github.com/docmost/docmost)** | Collaborative wiki and documentation software | — | AGPL |
 
