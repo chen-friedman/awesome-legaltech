@@ -306,6 +306,7 @@
 | **[CaseHOLD](https://github.com/reglab/casehold)** 🇺🇸 | Case holdings analysis | United States | ![Targeted](https://img.shields.io/badge/scale-targeted-yellow) | Legal reasoning |
 | **[ivrit.ai datasets](https://github.com/ivrit-ai/ivrit.ai)** 🇮🇱 | Hebrew speech dataset creation platform | Israel | ![Platform](https://img.shields.io/badge/type-platform-orange) | Hebrew model training |
 | **[crowd-transcribe-v5](https://huggingface.co/datasets/ivrit-ai/crowd-transcribe-v5)** 🇮🇱 | Hebrew speech dataset with 388 hours transcribed data | Israel | ![Large](https://img.shields.io/badge/scale-large-green) | Hebrew speech models |
+| **[CA Civil Litigation Corrections](https://github.com/myfilms79/california-civil-litigation-legal-ai-corrections)** 🇺🇸 | Correction pairs + graduated rubric | California/US | ![Specialized](https://img.shields.io/badge/scale-specialized-lightblue) | Legal-AI evaluation & correction |
 
 ---
 
