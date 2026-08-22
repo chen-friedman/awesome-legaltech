@@ -231,6 +231,7 @@
 | **Project** | **Primary Use** | **Target Users** | **Technical Level** |
 |-------------|-----------------|------------------|---------------------|
 | **[docassemble](https://github.com/jhpyle/docassemble)** | Expert-system platform for guided interviews | Legal professionals | ![Medium](https://img.shields.io/badge/technical-medium-orange) |
+| **[elder-fraud-toolkit](https://github.com/stepuplaw/elder-fraud-toolkit)** 🇺🇸 | In-browser credit-freeze letter generator for all three US bureaus, incl. the POA/guardianship route | Consumers / Legal aid | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[AssemblyLine](https://github.com/SuffolkLITLab/docassemble-AssemblyLine)** 🇺🇸 | Court-form automation toolkit | Court systems | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[python-docx-template](https://github.com/elapouya/python-docx-template)** | Jinja2-based template engine for generating Word legal documents | Developers | ![Low](https://img.shields.io/badge/technical-low-green) |
 | **[Blawx](https://github.com/Lexpedite/blawx)** | Visual Rules-as-Code environment | Legal technologists | ![High](https://img.shields.io/badge/technical-high-red) |
