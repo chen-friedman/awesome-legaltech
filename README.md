@@ -35,7 +35,7 @@
 | [NLP Libraries & Domain Models](#nlp-libraries--domain-models) | 10 projects | Text processing & analysis |
 | [AI-Powered Contract & Document Analytics](#ai-powered-contract--document-analytics) | 5 platforms | Contract intelligence |
 | [RAG & AI Infrastructure](#rag--ai-infrastructure) | 8 tools | Building legal AI apps |
-| [Agentic AI & Automation](#agentic-ai--automation) | 5 tools | AI agents & workflow automation |
+| [Agentic AI & Automation](#agentic-ai--automation) | 6 tools | AI agents & workflow automation |
 | [Legal Research & Case Law Data/APIs](#legal-research--case-law-dataapis) | 9 resources | Research & citations |
 | [E-Discovery & Litigation](#e-discovery--litigation) | 6 tools | Legal discovery & annotation |
 | [Speech Recognition & Transcription](#speech-recognition--transcription) | 10 tools | Audio/video transcription |
@@ -132,6 +132,7 @@
 | **[AutoGen](https://github.com/microsoft/autogen)** | Microsoft’s multi-agent framework for orchestrating complex AI workflows | ⭐ 57k | CC-BY-4.0 |
 | **[CrewAI](https://github.com/crewAIInc/crewAI)** | Framework for orchestrating role-playing autonomous AI agents | ⭐ 48k | MIT |
 | **[Activepieces](https://github.com/activepieces/activepieces)** | Open-source no-code automation with MCP support and self-hosting | ⭐ 22k | — |
+| **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** | Deterministic MCP server for legal intake triage: practice-area lookup, conflict-screening gate, eval harness | ⭐ 0 | Apache-2.0 |
 
 ---
 
