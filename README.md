@@ -237,6 +237,7 @@
 | **[Catala](https://github.com/CatalaLang/catala)** | Programming language for faithful statute implementation | Developers | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[OpenFisca](https://github.com/openfisca/openfisca-core)** | Open legislation simulation engine — used by governments to model social laws | Govtech / Developers | ![High](https://img.shields.io/badge/technical-high-red) |
 | **[LEOS](https://code.europa.eu/leos/core)** 🇪🇺 | Legislative editing platform for AkomaNtoso XML format | EU institutions | ![Enterprise](https://img.shields.io/badge/maturity-enterprise-darkgreen) |
+| **[micar-whitepaper-linter](https://github.com/sebastianfoerste/micar-whitepaper-linter)** 🇪🇺 | MiCAR Annex I-III disclosure duties implemented as deterministic, pinpoint-cited checks | Regulatory lawyers / Developers | ![Medium](https://img.shields.io/badge/technical-medium-orange) |
 
 ---
 
