@@ -142,6 +142,7 @@
 | **Project** | **Coverage** | **Jurisdiction** | **API Access** |
 |-------------|--------------|------------------|----------------|
 | **[CourtListener](https://github.com/freelawproject/courtlistener)** 🇺🇸 | Primary legal data & research platform | United States | ![API](https://img.shields.io/badge/API-available-green) |
+| **[Court Rules](https://github.com/foklepoint/court-rules-mcp)** 🇺🇸 | Federal and state filing rules, local rules, judge standing orders and court holiday calendars, each with a source citation | United States | ![API](https://img.shields.io/badge/API-available-green) |
 | **[Juriscraper](https://github.com/freelawproject/juriscraper)** 🇺🇸 | Scrapers for opinions, oral arguments, PACER content | United States | ![Tools](https://img.shields.io/badge/type-tools-blue) |
 | **[Eyecite](https://github.com/freelawproject/eyecite)** 🇺🇸 | Fast, robust legal citation extractor | United States | ![Library](https://img.shields.io/badge/type-library-purple) |
 | **[Caselaw Access Project](https://lil.law.harvard.edu/our-work/caselaw-access-project/)** 🇺🇸 | 6.7M+ U.S. court decisions with API | United States | ![API](https://img.shields.io/badge/API-available-green) |
