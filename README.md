@@ -165,6 +165,7 @@
 | **[FreeEed](https://github.com/shmsoft/FreeEed)** | Complete eDiscovery processing (OCR, indexing, metadata) | Large-scale discovery | — |
 | **[FreeDiscovery](https://github.com/FreeDiscovery/FreeDiscovery)** | Information retrieval engine based on scikit-learn | Document analysis | — |
 | **[FOIAMachine](https://github.com/cirlabs/foiamachine)** 🇺🇸 | Manage and send FOIA requests with agency directory | Government transparency | — |
+| **[legaltech-kanzlei](https://github.com/legaltech-kanzlei/legaltech-kanzlei.github.io)** 🇩🇪 | Architectures for eDiscovery in mass proceedings (§ 32f StPO), local RAG & OCR pipelines | Mass proceedings & case analysis | — |
 
 ---
 
