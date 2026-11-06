@@ -306,7 +306,7 @@
 | **[CaseHOLD](https://github.com/reglab/casehold)** 🇺🇸 | Case holdings analysis | United States | ![Targeted](https://img.shields.io/badge/scale-targeted-yellow) | Legal reasoning |
 | **[ivrit.ai datasets](https://github.com/ivrit-ai/ivrit.ai)** 🇮🇱 | Hebrew speech dataset creation platform | Israel | ![Platform](https://img.shields.io/badge/type-platform-orange) | Hebrew model training |
 | **[crowd-transcribe-v5](https://huggingface.co/datasets/ivrit-ai/crowd-transcribe-v5)** 🇮🇱 | Hebrew speech dataset with 388 hours transcribed data | Israel | ![Large](https://img.shields.io/badge/scale-large-green) | Hebrew speech models |
-| **[Lawyer Advertising Rules by State](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/)** 🇺🇸 | State lawyer-advertising rules, each value source-coded (CC BY 4.0, DOI 10.5281/zenodo.23645751) | 50 US states + DC | ![Focused](https://img.shields.io/badge/scale-focused-orange) | Legal-ethics research, compliance tooling, RAG grounding |
+| **[Lawyer Advertising Rules by State](https://probativegrowth.com/resources/lawyer-advertising-rules-by-state/)** 🇺🇸 | State lawyer-advertising rules, each value source-coded (CC BY 4.0, DOI 10.5281/zenodo.23645750) | 50 US states + DC | ![Focused](https://img.shields.io/badge/scale-focused-orange) | Legal-ethics research, compliance tooling, RAG grounding |
 
 ---
 
